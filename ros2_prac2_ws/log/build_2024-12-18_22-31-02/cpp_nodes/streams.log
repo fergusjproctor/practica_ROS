@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.068s] [35m[1mScanning dependencies of target main_node[0m
+[0.093s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/input_node.cpp.o[0m
+[0.779s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp:4:51:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K)[m[K’ token
+[0.779s]     4 | InputNode::InputNode(const std::string &node_name)[01;31m[K)[m[K
+[0.779s]       |                                                   [01;31m[K^[m[K
+[0.972s] make[2]: *** [CMakeFiles/main_node.dir/build.make:89: CMakeFiles/main_node.dir/src/input_node.cpp.o] Error 1
+[0.972s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main_node.dir/all] Error 2
+[0.972s] make: *** [Makefile:141: all] Error 2
+[0.974s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

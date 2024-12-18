@@ -1,0 +1,2 @@
+Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes -DCMAKE_INSTALL_PREFIX=/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes
+Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes -DCMAKE_INSTALL_PREFIX=/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes

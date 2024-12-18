@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target main_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/derived_input_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_2.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/input_node.cpp.o[0m
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp:4:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KInputNode::InputNode()[m[K’
+    4 | [01;31m[KInputNode[m[K::InputNode()
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp:1[m[K:
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KInputNode::InputNode(InputNode&&)[m[K’
+    7 | class [01;36m[KInputNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp:7:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KInputNode::InputNode(const InputNode&)[m[K’
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp:10:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KInputNode::InputNode(const string&)[m[K’
+   10 |     explicit [01;36m[KInputNode[m[K(const std::string &node_name);
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass InputNode[m[K’ defined here
+    7 | class [01;36m[KInputNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/main_node.dir/build.make:89: CMakeFiles/main_node.dir/src/input_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

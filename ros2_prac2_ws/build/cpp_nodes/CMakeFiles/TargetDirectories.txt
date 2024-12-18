@@ -1,0 +1,10 @@
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/install/strip.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/install/local.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/install.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/list_install_components.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/rebuild_cache.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/main_node.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/edit_cache.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/test.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/cpp_nodes_uninstall.dir
+/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/uninstall.dir

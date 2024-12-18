@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes
+[35m[1mScanning dependencies of target main_node[0m
+[ 33%] [32m[1mLinking CXX executable main_node[0m
+/usr/bin/ld: CMakeFiles/main_node.dir/src/derived_input_node.cpp.o: in function `DerivedInputNode::DerivedInputNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+derived_input_node.cpp:(.text+0x34): undefined reference to `InputNode::InputNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/main_node.dir/src/derived_input_node.cpp.o: in function `InputNode::~InputNode()':
+derived_input_node.cpp:(.text._ZN9InputNodeD2Ev[_ZN9InputNodeD5Ev]+0xc): undefined reference to `vtable for InputNode'
+/usr/bin/ld: derived_input_node.cpp:(.text._ZN9InputNodeD2Ev[_ZN9InputNodeD5Ev]+0x10): undefined reference to `vtable for InputNode'
+/usr/bin/ld: CMakeFiles/main_node.dir/src/derived_input_node.cpp.o:(.data.rel.ro._ZTI16DerivedInputNode[_ZTI16DerivedInputNode]+0x10): undefined reference to `typeinfo for InputNode'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/main_node.dir/build.make:146: main_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

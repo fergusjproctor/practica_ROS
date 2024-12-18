@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.034s] [35m[1mScanning dependencies of target main_node[0m
+[0.065s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/derived_input_node.cpp.o[0m
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_2.cpp.o[0m
+[1.317s] [ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/input_node.cpp.o[0m
+[2.039s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp:4:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KInputNode::InputNode()[m[K’
+[2.039s]     4 | [01;31m[KInputNode[m[K::InputNode()
+[2.039s]       | [01;31m[K^~~~~~~~~[m[K
+[2.039s] In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp:1[m[K:
+[2.039s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KInputNode::InputNode(InputNode&&)[m[K’
+[2.039s]     7 | class [01;36m[KInputNode[m[K : public rclcpp::Node
+[2.039s]       |       [01;36m[K^~~~~~~~~[m[K
+[2.039s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp:7:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KInputNode::InputNode(const InputNode&)[m[K’
+[2.039s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp:10:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KInputNode::InputNode(const string&)[m[K’
+[2.039s]    10 |     explicit [01;36m[KInputNode[m[K(const std::string &node_name);
+[2.040s]       |              [01;36m[K^~~~~~~~~[m[K
+[2.040s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass InputNode[m[K’ defined here
+[2.040s]     7 | class [01;36m[KInputNode[m[K : public rclcpp::Node
+[2.040s]       |       [01;36m[K^~~~~~~~~[m[K
+[2.210s] make[2]: *** [CMakeFiles/main_node.dir/build.make:89: CMakeFiles/main_node.dir/src/input_node.cpp.o] Error 1
+[2.210s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main_node.dir/all] Error 2
+[2.211s] make: *** [Makefile:141: all] Error 2
+[2.214s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

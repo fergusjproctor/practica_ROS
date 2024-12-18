@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.062s] [35m[1mScanning dependencies of target main_node[0m
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_2.cpp.o[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/derived_input_node.cpp.o[0m
+[0.269s] In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp:1[m[K:
+[0.269s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/derived_input_node.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+[0.269s]     1 | #ifndef DERIVED_INPUT_NODE_HPP
+[0.269s]       | 
+[0.269s] In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/main_2.cpp:1[m[K:
+[0.269s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/derived_input_node.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+[0.269s]     1 | #ifndef DERIVED_INPUT_NODE_HPP
+[0.269s]       | 
+[1.414s] make[2]: *** [CMakeFiles/main_node.dir/build.make:63: CMakeFiles/main_node.dir/src/main_2.cpp.o] Error 1
+[1.416s] make[2]: *** Waiting for unfinished jobs....
+[1.418s] make[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/derived_input_node.cpp.o] Error 1
+[1.418s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main_node.dir/all] Error 2
+[1.418s] make: *** [Makefile:141: all] Error 2
+[1.429s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

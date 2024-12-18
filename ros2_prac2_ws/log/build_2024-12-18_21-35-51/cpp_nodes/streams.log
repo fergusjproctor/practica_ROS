@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.082s] [35m[1mScanning dependencies of target main_node[0m
+[0.106s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_2.cpp.o[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/derived_input_node.cpp.o[0m
+[0.277s] In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp:1[m[K:
+[0.277s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/derived_input_node.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+[0.277s]     1 | #ifndef DERIVED_INPUT_NODE_HPP
+[0.278s]       | 
+[0.278s] In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/main_2.cpp:1[m[K:
+[0.278s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/derived_input_node.hpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+[0.278s]     1 | #ifndef DERIVED_INPUT_NODE_HPP
+[0.278s]       | 
+[1.113s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp:3:31:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KDerivedNode[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[1.113s]     3 | DerivedInputNode::DerivedNode([01;31m[K)[m[K
+[1.113s]       |                               [01;31m[K^[m[K
+[1.113s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint DerivedInputNode::DerivedNode()[m[K’
+[1.114s]     3 | [01;31m[KDerivedInputNode[m[K::DerivedNode()
+[1.114s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.114s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp:3:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint DerivedInputNode::DerivedNode()[m[K’
+[1.114s] In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp:1[m[K:
+[1.115s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/derived_input_node.hpp:6:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass DerivedInputNode[m[K’ defined here
+[1.115s]     6 | class [01;36m[KDerivedInputNode[m[K : public InputNode
+[1.115s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.402s] make[2]: *** [CMakeFiles/main_node.dir/build.make:63: CMakeFiles/main_node.dir/src/main_2.cpp.o] Error 1
+[1.403s] make[2]: *** Waiting for unfinished jobs....
+[1.403s] make[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/derived_input_node.cpp.o] Error 1
+[1.403s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main_node.dir/all] Error 2
+[1.403s] make: *** [Makefile:141: all] Error 2
+[1.417s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

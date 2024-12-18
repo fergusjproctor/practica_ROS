@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.068s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.086s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.217s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.279s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.018s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.251s] CMake Error at CMakeLists.txt:13 (target_include_directories):
+[1.252s]   Cannot specify include directories for target "area_node" which is not
+[1.254s]   built by this project.
+[1.255s] 
+[1.255s] 
+[1.324s] -- Configuring incomplete, errors occurred!
+[1.324s] See also "/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/CMakeOutput.log".
+[1.324s] See also "/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/CMakeError.log".
+[1.331s] make: *** [Makefile:326: cmake_check_build_system] Error 1
+[1.338s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
