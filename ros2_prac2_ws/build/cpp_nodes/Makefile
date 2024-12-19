@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named empaquetado_nodo
+
+# Build rule for target.
+empaquetado_nodo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 empaquetado_nodo
+.PHONY : empaquetado_nodo
+
+# fast build rule for target.
+empaquetado_nodo/fast:
+	$(MAKE) -f CMakeFiles/empaquetado_nodo.dir/build.make CMakeFiles/empaquetado_nodo.dir/build
+.PHONY : empaquetado_nodo/fast
+
+#=============================================================================
 # Target rules for targets named main_node
 
 # Build rule for target.
@@ -232,6 +245,33 @@ src/derived_input_node.s: src/derived_input_node.cpp.s
 src/derived_input_node.cpp.s:
 	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/derived_input_node.cpp.s
 .PHONY : src/derived_input_node.cpp.s
+
+src/empaquetado_nodo.o: src/empaquetado_nodo.cpp.o
+
+.PHONY : src/empaquetado_nodo.o
+
+# target to build an object file
+src/empaquetado_nodo.cpp.o:
+	$(MAKE) -f CMakeFiles/empaquetado_nodo.dir/build.make CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o
+.PHONY : src/empaquetado_nodo.cpp.o
+
+src/empaquetado_nodo.i: src/empaquetado_nodo.cpp.i
+
+.PHONY : src/empaquetado_nodo.i
+
+# target to preprocess a source file
+src/empaquetado_nodo.cpp.i:
+	$(MAKE) -f CMakeFiles/empaquetado_nodo.dir/build.make CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.i
+.PHONY : src/empaquetado_nodo.cpp.i
+
+src/empaquetado_nodo.s: src/empaquetado_nodo.cpp.s
+
+.PHONY : src/empaquetado_nodo.s
+
+# target to generate assembly for a file
+src/empaquetado_nodo.cpp.s:
+	$(MAKE) -f CMakeFiles/empaquetado_nodo.dir/build.make CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.s
+.PHONY : src/empaquetado_nodo.cpp.s
 
 src/input_node.o: src/input_node.cpp.o
 
@@ -298,6 +338,7 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... empaquetado_nodo"
 	@echo "... main_node"
 	@echo "... edit_cache"
 	@echo "... test"
@@ -306,6 +347,9 @@ help:
 	@echo "... src/derived_input_node.o"
 	@echo "... src/derived_input_node.i"
 	@echo "... src/derived_input_node.s"
+	@echo "... src/empaquetado_nodo.o"
+	@echo "... src/empaquetado_nodo.i"
+	@echo "... src/empaquetado_nodo.s"
 	@echo "... src/input_node.o"
 	@echo "... src/input_node.i"
 	@echo "... src/input_node.s"

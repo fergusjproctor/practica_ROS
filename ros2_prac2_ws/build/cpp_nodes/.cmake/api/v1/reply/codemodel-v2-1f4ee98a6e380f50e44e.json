@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -49,8 +51,15 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "empaquetado_nodo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empaquetado_nodo-a84d9defb7f5e3f00dcc.json",
+					"name" : "empaquetado_nodo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "main_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main_node-93455452a0dbf67dd1c5.json",
+					"jsonFile" : "target-main_node-601675b7e5f6792d0ac3.json",
 					"name" : "main_node",
 					"projectIndex" : 0
 				},

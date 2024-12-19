@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target empaquetado_nodo[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o[0m
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kempaquetadonodo.hpp: No such file or directory
+    1 | #include [01;31m[K"empaquetadonodo.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/empaquetado_nodo.dir/build.make:63: CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/empaquetado_nodo.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 83%] Built target main_node
+make: *** [Makefile:141: all] Error 2

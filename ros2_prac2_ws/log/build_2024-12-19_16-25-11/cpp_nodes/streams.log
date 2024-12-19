@@ -1,0 +1,12 @@
+[0.006s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.048s] [ 16%] [32mBuilding CXX object CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o[0m
+[0.055s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kempaquetado_nodo.hpp: No such file or directory
+[0.055s]     1 | #include [01;31m[K"empaquetado_nodo.hpp"[m[K
+[0.055s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.055s] compilation terminated.
+[0.056s] make[2]: *** [CMakeFiles/empaquetado_nodo.dir/build.make:63: CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o] Error 1
+[0.057s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/empaquetado_nodo.dir/all] Error 2
+[0.057s] make[1]: *** Waiting for unfinished jobs....
+[0.063s] [ 83%] Built target main_node
+[0.063s] make: *** [Makefile:141: all] Error 2
+[0.065s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
