@@ -1,0 +1,35 @@
+[0.018s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.085s] [35m[1mScanning dependencies of target main_node[0m
+[0.113s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_2.cpp.o[0m
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/input_node.cpp.o[0m
+[1.872s] [ 75%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/derived_input_node.cpp.o[0m
+[2.887s] [100%] [32m[1mLinking CXX executable main_node[0m
+[3.020s] [100%] Built target main_node
+[3.034s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[3.046s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes
+[3.056s] -- Install configuration: ""
+[3.056s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include
+[3.057s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/base_node.hpp
+[3.057s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/input_node.hpp
+[3.057s] -- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/derived_input_node.hpp
+[3.058s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/derived_node.hpp
+[3.059s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/cpp_nodes
+[3.060s] -- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/main_node
+[3.061s] -- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/main_node" to ""
+[3.061s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/ament_index/resource_index/package_run_dependencies/cpp_nodes
+[3.061s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/ament_index/resource_index/parent_prefix_path/cpp_nodes
+[3.063s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.sh
+[3.063s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.dsv
+[3.063s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/environment/path.sh
+[3.064s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/environment/path.dsv
+[3.064s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/local_setup.bash
+[3.064s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/local_setup.sh
+[3.064s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/local_setup.zsh
+[3.064s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/local_setup.dsv
+[3.064s] -- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/package.dsv
+[3.064s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/ament_index/resource_index/packages/cpp_nodes
+[3.064s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig.cmake
+[3.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig-version.cmake
+[3.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/package.xml
+[3.066s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes

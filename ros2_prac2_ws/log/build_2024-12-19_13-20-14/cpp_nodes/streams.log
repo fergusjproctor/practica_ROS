@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.057s] [35m[1mScanning dependencies of target main_node[0m
+[0.088s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/input_node.cpp.o[0m
+[0.978s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp:[m[K In member function ‘[01m[Kvirtual void InputNode::get_user_input()[m[K’:
+[0.978s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp:30:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[0.978s]    30 |             timer_callback()
+[0.978s]       |                             [01;31m[K^[m[K
+[0.978s]       |                             [32m[K;[m[K
+[0.978s]    31 |         [32m[K}[m[K
+[0.978s]       |         [32m[K~[m[K                    
+[1.433s] make[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/input_node.cpp.o] Error 1
+[1.433s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main_node.dir/all] Error 2
+[1.433s] make: *** [Makefile:141: all] Error 2
+[1.436s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

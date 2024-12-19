@@ -7,7 +7,7 @@ class DerivedInputNode : public InputNode
 {
     public:
         explicit DerivedInputNode(const std::string &node_name);
-        void get_user_input() override;
+        //void get_user_input() override;
         void test_function();
 
     private:

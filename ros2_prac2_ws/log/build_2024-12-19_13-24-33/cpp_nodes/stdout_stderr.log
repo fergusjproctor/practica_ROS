@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target main_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_2.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/derived_input_node.cpp.o[0m
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   12 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/main_node.dir/build.make:89: CMakeFiles/main_node.dir/src/derived_input_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

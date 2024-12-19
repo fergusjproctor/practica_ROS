@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 18,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
@@ -53,7 +53,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
@@ -97,6 +97,11 @@
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
+					"path" : "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
 					"path" : "/opt/ros/foxy/include"
 				}
 			],
@@ -133,12 +138,32 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/opt/ros/foxy/lib:",
+				"fragment" : "-Wl,-rpath,/opt/ros/foxy/lib:/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib:",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
 				"fragment" : "/opt/ros/foxy/lib/librclcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -294,15 +319,24 @@
 				"role" : "libraries"
 			},
 			{
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libtracetools.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
 				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -327,10 +361,6 @@
 			},
 			{
 				"fragment" : "-ldl",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libtracetools.so",
 				"role" : "libraries"
 			}
 		],

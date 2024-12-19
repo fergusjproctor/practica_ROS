@@ -8,7 +8,7 @@ DerivedInputNode::DerivedInputNode(const std::string &node_name)
     test_function();
 }
 
-void DerivedInputNode::get_user_input()
+/* void DerivedInputNode::get_user_input()
 {
     while (rclcpp::ok()) // Loop runs until ROS is shutdown
     {
@@ -24,7 +24,7 @@ void DerivedInputNode::get_user_input()
             RCLCPP_INFO(this->get_logger(), "Breff You entered: '%s'", user_input_.c_str());
         }
     }
-}
+} */
 
 void DerivedInputNode::test_function()
 {

@@ -20,6 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include"
   "/opt/ros/foxy/include"
   )
 

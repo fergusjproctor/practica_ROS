@@ -272,7 +272,7 @@ SITE:STRING=parallels
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/foxy/share/ament_cmake/cmake
@@ -345,6 +345,9 @@ inheritance_example_BINARY_DIR:STATIC=/home/parallels/practica_ROS/ros2_prac2_ws
 
 //Value Computed by CMake
 inheritance_example_SOURCE_DIR:STATIC=/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes
+
+//The directory containing a CMake configuration file for interfaces.
+interfaces_DIR:PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cmake

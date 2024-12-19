@@ -3,6 +3,7 @@ project(cpp_nodes)
 
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(interfaces REQUIRED)
 
 add_executable(main_node
     src/main_2.cpp
@@ -15,7 +16,7 @@ target_include_directories(main_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
-ament_target_dependencies(main_node rclcpp)
+ament_target_dependencies(main_node rclcpp interfaces)
 
 install(
   DIRECTORY include/

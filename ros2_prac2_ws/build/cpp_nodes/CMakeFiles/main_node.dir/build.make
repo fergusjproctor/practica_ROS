@@ -110,6 +110,10 @@ main_node: CMakeFiles/main_node.dir/src/input_node.cpp.o
 main_node: CMakeFiles/main_node.dir/src/derived_input_node.cpp.o
 main_node: CMakeFiles/main_node.dir/build.make
 main_node: /opt/ros/foxy/lib/librclcpp.so
+main_node: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+main_node: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+main_node: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+main_node: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
 main_node: /opt/ros/foxy/lib/liblibstatistics_collector.so
 main_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 main_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -147,15 +151,16 @@ main_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspec
 main_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 main_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 main_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+main_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+main_node: /opt/ros/foxy/lib/libtracetools.so
+main_node: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
 main_node: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
 main_node: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
-main_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 main_node: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
 main_node: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 main_node: /opt/ros/foxy/lib/librcpputils.so
 main_node: /opt/ros/foxy/lib/librosidl_runtime_c.so
 main_node: /opt/ros/foxy/lib/librcutils.so
-main_node: /opt/ros/foxy/lib/libtracetools.so
 main_node: CMakeFiles/main_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_node.dir/link.txt --verbose=$(VERBOSE)
