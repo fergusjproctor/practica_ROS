@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces
 include CMakeFiles/interfaces.dir/progress.make
 
 CMakeFiles/interfaces: /home/parallels/practica_ROS/ros2_prac2_ws/src/interfaces/msg/CustomString.msg
+CMakeFiles/interfaces: /home/parallels/practica_ROS/ros2_prac2_ws/src/interfaces/msg/InfPersonalUsuario.msg
 
 
 interfaces: CMakeFiles/interfaces

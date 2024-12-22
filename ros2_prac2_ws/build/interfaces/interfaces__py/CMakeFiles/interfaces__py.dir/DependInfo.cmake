@@ -10,6 +10,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/__init__.py" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_custom_string.py" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_custom_string_s.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_inf_personal_usuario.py" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_inf_personal_usuario_s.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

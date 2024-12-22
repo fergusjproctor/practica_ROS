@@ -26,6 +26,26 @@ rosidl_typesupport_cpp/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/rosidl_typesupport_interface/macros.h
 
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/inf_personal_usuario__type_support.cpp
+cstddef
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/rosidl_runtime_c/message_type_support_struct.h
+interfaces/msg/detail/inf_personal_usuario__struct.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/interfaces/msg/detail/inf_personal_usuario__struct.hpp
+rosidl_typesupport_cpp/identifier.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/rosidl_typesupport_cpp/identifier.hpp
+rosidl_typesupport_cpp/message_type_support.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/rosidl_typesupport_cpp/message_type_support.hpp
+rosidl_typesupport_c/type_support_map.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_cpp/message_type_support_dispatch.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/rosidl_typesupport_cpp/message_type_support_dispatch.hpp
+rosidl_typesupport_cpp/visibility_control.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/rosidl_typesupport_cpp/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/rosidl_typesupport_interface/macros.h
+
 /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
 
 /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
@@ -79,6 +99,22 @@ rosidl_typesupport_cpp/visibility_control.h
 /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
 rosidl_generator_cpp/interfaces/msg/detail/custom_string__struct.hpp
+rosidl_runtime_cpp/bounded_vector.hpp
+-
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+array
+-
+memory
+-
+string
+-
+vector
+-
+
+rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
 rosidl_runtime_cpp/message_initialization.hpp

@@ -105,12 +105,12 @@ CMakeFiles/empaquetado_nodo.dir/clean:
 CMakeFiles/main_node.dir/all:
 	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/depend
 	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=3,4,5,6 "Built target main_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=3,4,5 "Built target main_node"
 .PHONY : CMakeFiles/main_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 0
 .PHONY : CMakeFiles/main_node.dir/rule

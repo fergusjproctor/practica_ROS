@@ -7,8 +7,7 @@ find_package(interfaces REQUIRED)
 
 add_executable(main_node 
     src/main_2.cpp
-    src/input_node.cpp
-    src/derived_input_node.cpp
+    src/informacion_personal_nodo.cpp
 )
 
 add_executable(empaquetado_nodo 

@@ -219,33 +219,6 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/derived_input_node.o: src/derived_input_node.cpp.o
-
-.PHONY : src/derived_input_node.o
-
-# target to build an object file
-src/derived_input_node.cpp.o:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/derived_input_node.cpp.o
-.PHONY : src/derived_input_node.cpp.o
-
-src/derived_input_node.i: src/derived_input_node.cpp.i
-
-.PHONY : src/derived_input_node.i
-
-# target to preprocess a source file
-src/derived_input_node.cpp.i:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/derived_input_node.cpp.i
-.PHONY : src/derived_input_node.cpp.i
-
-src/derived_input_node.s: src/derived_input_node.cpp.s
-
-.PHONY : src/derived_input_node.s
-
-# target to generate assembly for a file
-src/derived_input_node.cpp.s:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/derived_input_node.cpp.s
-.PHONY : src/derived_input_node.cpp.s
-
 src/empaquetado_nodo.o: src/empaquetado_nodo.cpp.o
 
 .PHONY : src/empaquetado_nodo.o
@@ -273,32 +246,32 @@ src/empaquetado_nodo.cpp.s:
 	$(MAKE) -f CMakeFiles/empaquetado_nodo.dir/build.make CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.s
 .PHONY : src/empaquetado_nodo.cpp.s
 
-src/input_node.o: src/input_node.cpp.o
+src/informacion_personal_nodo.o: src/informacion_personal_nodo.cpp.o
 
-.PHONY : src/input_node.o
+.PHONY : src/informacion_personal_nodo.o
 
 # target to build an object file
-src/input_node.cpp.o:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/input_node.cpp.o
-.PHONY : src/input_node.cpp.o
+src/informacion_personal_nodo.cpp.o:
+	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o
+.PHONY : src/informacion_personal_nodo.cpp.o
 
-src/input_node.i: src/input_node.cpp.i
+src/informacion_personal_nodo.i: src/informacion_personal_nodo.cpp.i
 
-.PHONY : src/input_node.i
+.PHONY : src/informacion_personal_nodo.i
 
 # target to preprocess a source file
-src/input_node.cpp.i:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/input_node.cpp.i
-.PHONY : src/input_node.cpp.i
+src/informacion_personal_nodo.cpp.i:
+	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.i
+.PHONY : src/informacion_personal_nodo.cpp.i
 
-src/input_node.s: src/input_node.cpp.s
+src/informacion_personal_nodo.s: src/informacion_personal_nodo.cpp.s
 
-.PHONY : src/input_node.s
+.PHONY : src/informacion_personal_nodo.s
 
 # target to generate assembly for a file
-src/input_node.cpp.s:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/input_node.cpp.s
-.PHONY : src/input_node.cpp.s
+src/informacion_personal_nodo.cpp.s:
+	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.s
+.PHONY : src/informacion_personal_nodo.cpp.s
 
 src/main_2.o: src/main_2.cpp.o
 
@@ -344,15 +317,12 @@ help:
 	@echo "... test"
 	@echo "... cpp_nodes_uninstall"
 	@echo "... uninstall"
-	@echo "... src/derived_input_node.o"
-	@echo "... src/derived_input_node.i"
-	@echo "... src/derived_input_node.s"
 	@echo "... src/empaquetado_nodo.o"
 	@echo "... src/empaquetado_nodo.i"
 	@echo "... src/empaquetado_nodo.s"
-	@echo "... src/input_node.o"
-	@echo "... src/input_node.i"
-	@echo "... src/input_node.s"
+	@echo "... src/informacion_personal_nodo.o"
+	@echo "... src/informacion_personal_nodo.i"
+	@echo "... src/informacion_personal_nodo.s"
 	@echo "... src/main_2.o"
 	@echo "... src/main_2.i"
 	@echo "... src/main_2.s"

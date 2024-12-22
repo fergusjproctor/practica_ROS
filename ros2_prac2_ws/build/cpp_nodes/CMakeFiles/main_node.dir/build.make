@@ -70,44 +70,29 @@ CMakeFiles/main_node.dir/src/main_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_node.dir/src/main_2.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/main_2.cpp -o CMakeFiles/main_node.dir/src/main_2.cpp.s
 
-CMakeFiles/main_node.dir/src/input_node.cpp.o: CMakeFiles/main_node.dir/flags.make
-CMakeFiles/main_node.dir/src/input_node.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main_node.dir/src/input_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_node.dir/src/input_node.cpp.o -c /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp
+CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o: CMakeFiles/main_node.dir/flags.make
+CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o -c /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp
 
-CMakeFiles/main_node.dir/src/input_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_node.dir/src/input_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp > CMakeFiles/main_node.dir/src/input_node.cpp.i
+CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp > CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.i
 
-CMakeFiles/main_node.dir/src/input_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_node.dir/src/input_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp -o CMakeFiles/main_node.dir/src/input_node.cpp.s
-
-CMakeFiles/main_node.dir/src/derived_input_node.cpp.o: CMakeFiles/main_node.dir/flags.make
-CMakeFiles/main_node.dir/src/derived_input_node.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main_node.dir/src/derived_input_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main_node.dir/src/derived_input_node.cpp.o -c /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp
-
-CMakeFiles/main_node.dir/src/derived_input_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_node.dir/src/derived_input_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp > CMakeFiles/main_node.dir/src/derived_input_node.cpp.i
-
-CMakeFiles/main_node.dir/src/derived_input_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_node.dir/src/derived_input_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp -o CMakeFiles/main_node.dir/src/derived_input_node.cpp.s
+CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp -o CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.s
 
 # Object files for target main_node
 main_node_OBJECTS = \
 "CMakeFiles/main_node.dir/src/main_2.cpp.o" \
-"CMakeFiles/main_node.dir/src/input_node.cpp.o" \
-"CMakeFiles/main_node.dir/src/derived_input_node.cpp.o"
+"CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o"
 
 # External object files for target main_node
 main_node_EXTERNAL_OBJECTS =
 
 main_node: CMakeFiles/main_node.dir/src/main_2.cpp.o
-main_node: CMakeFiles/main_node.dir/src/input_node.cpp.o
-main_node: CMakeFiles/main_node.dir/src/derived_input_node.cpp.o
+main_node: CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o
 main_node: CMakeFiles/main_node.dir/build.make
 main_node: /opt/ros/foxy/lib/librclcpp.so
 main_node: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
@@ -162,7 +147,7 @@ main_node: /opt/ros/foxy/lib/librcpputils.so
 main_node: /opt/ros/foxy/lib/librosidl_runtime_c.so
 main_node: /opt/ros/foxy/lib/librcutils.so
 main_node: CMakeFiles/main_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

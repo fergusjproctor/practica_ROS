@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/main_node.dir/src/derived_input_node.cpp.o"
-  "/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/main_node.dir/src/input_node.cpp.o"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o"
   "/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/main_2.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles/main_node.dir/src/main_2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

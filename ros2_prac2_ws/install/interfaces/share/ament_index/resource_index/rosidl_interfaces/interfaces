@@ -1,2 +1,4 @@
 msg/CustomString.idl
 msg/CustomString.msg
+msg/InfPersonalUsuario.idl
+msg/InfPersonalUsuario.msg

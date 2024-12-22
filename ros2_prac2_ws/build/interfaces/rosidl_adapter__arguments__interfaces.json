@@ -1,6 +1,7 @@
 {
   "package_name": "interfaces",
   "non_idl_tuples": [
-    "/home/parallels/practica_ROS/ros2_prac2_ws/src/interfaces:msg/CustomString.msg"
+    "/home/parallels/practica_ROS/ros2_prac2_ws/src/interfaces:msg/CustomString.msg",
+    "/home/parallels/practica_ROS/ros2_prac2_ws/src/interfaces:msg/InfPersonalUsuario.msg"
   ]
 }

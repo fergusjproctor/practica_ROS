@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/custom_string.hpp
-interfaces/msg/detail/custom_string__struct.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/interfaces/msg/detail/custom_string__struct.hpp
-interfaces/msg/detail/custom_string__builder.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/interfaces/msg/detail/custom_string__builder.hpp
-interfaces/msg/detail/custom_string__traits.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/interfaces/msg/detail/custom_string__traits.hpp
-interfaces/msg/detail/custom_string__type_support.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/interfaces/msg/detail/custom_string__type_support.hpp
-
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__builder.hpp
-interfaces/msg/detail/custom_string__struct.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/interfaces/msg/detail/custom_string__struct.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__builder.hpp
+interfaces/msg/detail/inf_personal_usuario__struct.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/interfaces/msg/detail/inf_personal_usuario__struct.hpp
 rosidl_runtime_cpp/message_initialization.hpp
 -
 algorithm
@@ -26,7 +16,7 @@ algorithm
 utility
 -
 
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__struct.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
 rosidl_runtime_cpp/message_initialization.hpp
@@ -42,9 +32,9 @@ string
 vector
 -
 
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__traits.hpp
-interfaces/msg/detail/custom_string__struct.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/interfaces/msg/detail/custom_string__struct.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__traits.hpp
+interfaces/msg/detail/inf_personal_usuario__struct.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/interfaces/msg/detail/inf_personal_usuario__struct.hpp
 rosidl_runtime_cpp/traits.hpp
 -
 stdint.h
@@ -52,7 +42,7 @@ stdint.h
 type_traits
 -
 
-/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.hpp
 rosidl_typesupport_interface/macros.h
 /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/rosidl_typesupport_interface/macros.h
 interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
@@ -60,13 +50,19 @@ interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 rosidl_typesupport_cpp/message_type_support.hpp
 /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
 
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/inf_personal_usuario.hpp
+interfaces/msg/detail/inf_personal_usuario__struct.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/interfaces/msg/detail/inf_personal_usuario__struct.hpp
+interfaces/msg/detail/inf_personal_usuario__builder.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/interfaces/msg/detail/inf_personal_usuario__builder.hpp
+interfaces/msg/detail/inf_personal_usuario__traits.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/interfaces/msg/detail/inf_personal_usuario__traits.hpp
+interfaces/msg/detail/inf_personal_usuario__type_support.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/interfaces/msg/detail/inf_personal_usuario__type_support.hpp
+
 /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/derived_input_node.hpp
-input_node.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp
-
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/input_node.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/informacion_personal_nodo.hpp
 rclcpp/rclcpp.hpp
 -
 string
@@ -75,22 +71,18 @@ chrono
 -
 memory
 -
-interfaces/msg/custom_string.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/interfaces/msg/custom_string.hpp
+interfaces/msg/inf_personal_usuario.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/interfaces/msg/inf_personal_usuario.hpp
 
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.cpp
-derived_input_node.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.hpp
-
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.cpp
-input_node.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/input_node.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp
+informacion_personal_nodo.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.hpp
 iostream
 -
 
 /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/main_2.cpp
-derived_input_node.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/derived_input_node.hpp
+informacion_personal_nodo.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
