@@ -31,3 +31,15 @@ CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/
  rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__functions.h
  rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__struct.h
  rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/posicion__functions.c.o
+ /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/posicion__functions.c
+ /opt/ros/foxy/include/rcutils/allocator.h
+ /opt/ros/foxy/include/rcutils/macros.h
+ /opt/ros/foxy/include/rcutils/testing/fault_injection.h
+ /opt/ros/foxy/include/rcutils/types/rcutils_ret.h
+ /opt/ros/foxy/include/rcutils/visibility_control.h
+ /opt/ros/foxy/include/rcutils/visibility_control_macros.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ rosidl_generator_c/interfaces/msg/detail/posicion__functions.h
+ rosidl_generator_c/interfaces/msg/detail/posicion__struct.h
+ rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h

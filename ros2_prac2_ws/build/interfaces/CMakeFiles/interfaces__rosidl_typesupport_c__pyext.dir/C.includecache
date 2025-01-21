@@ -33,6 +33,12 @@ interfaces/msg/detail/inf_personal_usuario__struct.h
 /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/interfaces/msg/detail/inf_personal_usuario__struct.h
 interfaces/msg/detail/inf_personal_usuario__functions.h
 /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/interfaces/msg/detail/inf_personal_usuario__functions.h
+interfaces/msg/detail/posicion__type_support.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/interfaces/msg/detail/posicion__type_support.h
+interfaces/msg/detail/posicion__struct.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/interfaces/msg/detail/posicion__struct.h
+interfaces/msg/detail/posicion__functions.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/interfaces/msg/detail/posicion__functions.h
 
 /opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h
 rosidl_runtime_c/message_type_support_struct.h
@@ -629,6 +635,34 @@ rosidl_runtime_c/string.h
 rosidl_generator_c/interfaces/msg/detail/rosidl_runtime_c/string.h
 
 rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__type_support.h
+rosidl_typesupport_interface/macros.h
+rosidl_generator_c/interfaces/msg/detail/rosidl_typesupport_interface/macros.h
+interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/interfaces/msg/detail/interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_generator_c/interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+
+rosidl_generator_c/interfaces/msg/detail/posicion__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/interfaces/msg/detail/interfaces/msg/rosidl_generator_c__visibility_control.h
+interfaces/msg/detail/posicion__struct.h
+rosidl_generator_c/interfaces/msg/detail/interfaces/msg/detail/posicion__struct.h
+
+rosidl_generator_c/interfaces/msg/detail/posicion__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/interfaces/msg/detail/posicion__type_support.h
 rosidl_typesupport_interface/macros.h
 rosidl_generator_c/interfaces/msg/detail/rosidl_typesupport_interface/macros.h
 interfaces/msg/rosidl_generator_c__visibility_control.h

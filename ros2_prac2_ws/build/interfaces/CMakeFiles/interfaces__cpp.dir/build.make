@@ -63,6 +63,11 @@ CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/inf_perso
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__struct.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__traits.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/posicion.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/posicion__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/posicion__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/posicion__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/posicion__type_support.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
@@ -87,6 +92,7 @@ rosidl_generator_cpp/interfaces/msg/custom_string.hpp: /opt/ros/foxy/share/rosid
 rosidl_generator_cpp/interfaces/msg/custom_string.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/interfaces/msg/custom_string.hpp: rosidl_adapter/interfaces/msg/CustomString.idl
 rosidl_generator_cpp/interfaces/msg/custom_string.hpp: rosidl_adapter/interfaces/msg/InfPersonalUsuario.idl
+rosidl_generator_cpp/interfaces/msg/custom_string.hpp: rosidl_adapter/interfaces/msg/Posicion.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp__arguments.json
 
@@ -117,6 +123,21 @@ rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__traits.hpp: ros
 rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.hpp: rosidl_generator_cpp/interfaces/msg/custom_string.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.hpp
 
+rosidl_generator_cpp/interfaces/msg/posicion.hpp: rosidl_generator_cpp/interfaces/msg/custom_string.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/posicion.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/posicion__builder.hpp: rosidl_generator_cpp/interfaces/msg/custom_string.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/posicion__builder.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/posicion__struct.hpp: rosidl_generator_cpp/interfaces/msg/custom_string.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/posicion__struct.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/posicion__traits.hpp: rosidl_generator_cpp/interfaces/msg/custom_string.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/posicion__traits.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/posicion__type_support.hpp: rosidl_generator_cpp/interfaces/msg/custom_string.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/posicion__type_support.hpp
+
 interfaces__cpp: CMakeFiles/interfaces__cpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/custom_string.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/custom_string__builder.hpp
@@ -128,6 +149,11 @@ interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__struct.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__traits.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/posicion.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/posicion__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/posicion__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/posicion__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/posicion__type_support.hpp
 interfaces__cpp: CMakeFiles/interfaces__cpp.dir/build.make
 
 .PHONY : interfaces__cpp

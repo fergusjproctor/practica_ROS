@@ -544,6 +544,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/posicion_usuario_nodo.dir/DependInfo.cmake"
   "CMakeFiles/emocion_usuario_nodo.dir/DependInfo.cmake"
   "CMakeFiles/empaquetado_nodo.dir/DependInfo.cmake"
   "CMakeFiles/informacion_personal_nodo.dir/DependInfo.cmake"

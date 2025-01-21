@@ -37,3 +37,18 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
  rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h
  rosidl_typesupport_introspection_c/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_introspection_c.h
  rosidl_typesupport_introspection_c/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/posicion__type_support.c.o
+ /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/detail/posicion__type_support.c
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ /opt/ros/foxy/include/rosidl_typesupport_introspection_c/field_types.h
+ /opt/ros/foxy/include/rosidl_typesupport_introspection_c/identifier.h
+ /opt/ros/foxy/include/rosidl_typesupport_introspection_c/message_introspection.h
+ /opt/ros/foxy/include/rosidl_typesupport_introspection_c/visibility_control.h
+ rosidl_generator_c/interfaces/msg/detail/posicion__functions.h
+ rosidl_generator_c/interfaces/msg/detail/posicion__struct.h
+ rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h
+ rosidl_typesupport_introspection_c/interfaces/msg/detail/posicion__rosidl_typesupport_introspection_c.h
+ rosidl_typesupport_introspection_c/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

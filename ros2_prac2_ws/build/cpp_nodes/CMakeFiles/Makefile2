@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/posicion_usuario_nodo.dir/all
 all: CMakeFiles/emocion_usuario_nodo.dir/all
 all: CMakeFiles/empaquetado_nodo.dir/all
 all: CMakeFiles/informacion_personal_nodo.dir/all
@@ -65,6 +66,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/posicion_usuario_nodo.dir/clean
 clean: CMakeFiles/emocion_usuario_nodo.dir/clean
 clean: CMakeFiles/empaquetado_nodo.dir/clean
 clean: CMakeFiles/informacion_personal_nodo.dir/clean
@@ -72,6 +74,33 @@ clean: CMakeFiles/cpp_nodes_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/posicion_usuario_nodo.dir
+
+# All Build rule for target.
+CMakeFiles/posicion_usuario_nodo.dir/all:
+	$(MAKE) -f CMakeFiles/posicion_usuario_nodo.dir/build.make CMakeFiles/posicion_usuario_nodo.dir/depend
+	$(MAKE) -f CMakeFiles/posicion_usuario_nodo.dir/build.make CMakeFiles/posicion_usuario_nodo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=7,8 "Built target posicion_usuario_nodo"
+.PHONY : CMakeFiles/posicion_usuario_nodo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/posicion_usuario_nodo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/posicion_usuario_nodo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 0
+.PHONY : CMakeFiles/posicion_usuario_nodo.dir/rule
+
+# Convenience name for target.
+posicion_usuario_nodo: CMakeFiles/posicion_usuario_nodo.dir/rule
+
+.PHONY : posicion_usuario_nodo
+
+# clean rule for target.
+CMakeFiles/posicion_usuario_nodo.dir/clean:
+	$(MAKE) -f CMakeFiles/posicion_usuario_nodo.dir/build.make CMakeFiles/posicion_usuario_nodo.dir/clean
+.PHONY : CMakeFiles/posicion_usuario_nodo.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/emocion_usuario_nodo.dir

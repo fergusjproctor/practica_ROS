@@ -1,0 +1,36 @@
+[0.006s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.074s] [ 25%] Built target posicion_usuario_nodo
+[0.077s] [ 50%] Built target emocion_usuario_nodo
+[0.082s] [35m[1mScanning dependencies of target empaquetado_nodo[0m
+[0.099s] [ 75%] Built target informacion_personal_nodo
+[0.121s] [ 87%] [32mBuilding CXX object CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o[0m
+[1.091s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:[m[K In constructor ‘[01m[KEmpaquetadoNodo::EmpaquetadoNodo()[m[K’:
+[1.091s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_posicion_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_emocion_[m[K’?
+[1.091s]    12 |   [01;31m[Ksubscription_posicion_[m[K = this->create_subscription<interfaces::msg::Posicion>(
+[1.091s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.091s]       |   [32m[Ksubscription_emocion_[m[K
+[1.092s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:12:71:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicion[m[K’ is not a member of ‘[01m[Kinterfaces::msg[m[K’
+[1.092s]    12 |   subscription_posicion_ = this->create_subscription<interfaces::msg::[01;31m[KPosicion[m[K>(
+[1.092s]       |                                                                       [01;31m[K^~~~~~~~[m[K
+[1.093s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:12:71:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicion[m[K’ is not a member of ‘[01m[Kinterfaces::msg[m[K’
+[1.093s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:13:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kposicion_callback[m[K’ is not a member of ‘[01m[KEmpaquetadoNodo[m[K’
+[1.093s]    13 |     "topic_Posicion", 10, std::bind(&EmpaquetadoNodo::[01;31m[Kposicion_callback[m[K, this, _1));
+[1.093s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.097s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:[m[K At global scope:
+[1.097s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:27:64:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicion[m[K’ in namespace ‘[01m[Kinterfaces::msg[m[K’ does not name a type
+[1.097s]    27 | void EmpaquetadoNodo::posicion_callback(const interfaces::msg::[01;31m[KPosicion[m[K::SharedPtr msg) const
+[1.097s]       |                                                                [01;31m[K^~~~~~~~[m[K
+[1.097s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:27:84:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[1.097s]    27 | void EmpaquetadoNodo::posicion_callback(const interfaces::msg::Posicion::SharedPtr [01;31m[Kmsg[m[K) const
+[1.097s]       |                                                                                    [01;31m[K^~~[m[K
+[1.097s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:27:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[1.097s]    27 | void EmpaquetadoNodo::posicion_callback[34m[K([m[Kconst interfaces::msg::Posicion::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+[1.097s]       |                                        [34m[K~[m[K                                          [01;31m[K^[m[K[32m[K~~~[m[K
+[1.097s]       |                                                                                   [32m[K)[m[K
+[1.097s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:27:84:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+[1.097s]    27 | void EmpaquetadoNodo::posicion_callback(const interfaces::msg::Posicion::SharedPtr [01;31m[Kmsg[m[K) const
+[1.097s]       |                                                                                    [01;31m[K^~~[m[K
+[2.250s] make[2]: *** [CMakeFiles/empaquetado_nodo.dir/build.make:63: CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o] Error 1
+[2.251s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/empaquetado_nodo.dir/all] Error 2
+[2.252s] make: *** [Makefile:141: all] Error 2
+[2.253s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

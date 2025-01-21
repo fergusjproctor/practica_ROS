@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named posicion_usuario_nodo
+
+# Build rule for target.
+posicion_usuario_nodo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 posicion_usuario_nodo
+.PHONY : posicion_usuario_nodo
+
+# fast build rule for target.
+posicion_usuario_nodo/fast:
+	$(MAKE) -f CMakeFiles/posicion_usuario_nodo.dir/build.make CMakeFiles/posicion_usuario_nodo.dir/build
+.PHONY : posicion_usuario_nodo/fast
+
+#=============================================================================
 # Target rules for targets named emocion_usuario_nodo
 
 # Build rule for target.
@@ -313,6 +326,33 @@ src/informacion_personal_nodo.cpp.s:
 	$(MAKE) -f CMakeFiles/informacion_personal_nodo.dir/build.make CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.s
 .PHONY : src/informacion_personal_nodo.cpp.s
 
+src/posicion_usuario_nodo.o: src/posicion_usuario_nodo.cpp.o
+
+.PHONY : src/posicion_usuario_nodo.o
+
+# target to build an object file
+src/posicion_usuario_nodo.cpp.o:
+	$(MAKE) -f CMakeFiles/posicion_usuario_nodo.dir/build.make CMakeFiles/posicion_usuario_nodo.dir/src/posicion_usuario_nodo.cpp.o
+.PHONY : src/posicion_usuario_nodo.cpp.o
+
+src/posicion_usuario_nodo.i: src/posicion_usuario_nodo.cpp.i
+
+.PHONY : src/posicion_usuario_nodo.i
+
+# target to preprocess a source file
+src/posicion_usuario_nodo.cpp.i:
+	$(MAKE) -f CMakeFiles/posicion_usuario_nodo.dir/build.make CMakeFiles/posicion_usuario_nodo.dir/src/posicion_usuario_nodo.cpp.i
+.PHONY : src/posicion_usuario_nodo.cpp.i
+
+src/posicion_usuario_nodo.s: src/posicion_usuario_nodo.cpp.s
+
+.PHONY : src/posicion_usuario_nodo.s
+
+# target to generate assembly for a file
+src/posicion_usuario_nodo.cpp.s:
+	$(MAKE) -f CMakeFiles/posicion_usuario_nodo.dir/build.make CMakeFiles/posicion_usuario_nodo.dir/src/posicion_usuario_nodo.cpp.s
+.PHONY : src/posicion_usuario_nodo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -324,6 +364,7 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... posicion_usuario_nodo"
 	@echo "... emocion_usuario_nodo"
 	@echo "... empaquetado_nodo"
 	@echo "... informacion_personal_nodo"
@@ -340,6 +381,9 @@ help:
 	@echo "... src/informacion_personal_nodo.o"
 	@echo "... src/informacion_personal_nodo.i"
 	@echo "... src/informacion_personal_nodo.s"
+	@echo "... src/posicion_usuario_nodo.o"
+	@echo "... src/posicion_usuario_nodo.i"
+	@echo "... src/posicion_usuario_nodo.s"
 .PHONY : help
 
 

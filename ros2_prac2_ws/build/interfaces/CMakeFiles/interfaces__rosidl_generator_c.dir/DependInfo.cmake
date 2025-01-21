@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/custom_string__functions.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/custom_string__functions.c.o"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__functions.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__functions.c.o"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/posicion__functions.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/posicion__functions.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -32,7 +33,12 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__functions.h" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__struct.h" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__type_support.h" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/posicion__functions.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/posicion__functions.h" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/posicion__struct.h" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/posicion__type_support.h" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/inf_personal_usuario.h" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/posicion.h" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/custom_string.h"
   )
 
 

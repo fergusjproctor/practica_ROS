@@ -9,7 +9,12 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__struct.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__traits.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/posicion__builder.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/posicion__struct.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/posicion__traits.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/posicion__type_support.hpp"
   "rosidl_generator_cpp/interfaces/msg/inf_personal_usuario.hpp"
+  "rosidl_generator_cpp/interfaces/msg/posicion.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

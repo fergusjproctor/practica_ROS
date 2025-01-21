@@ -55,6 +55,7 @@ include CMakeFiles/interfaces.dir/progress.make
 
 CMakeFiles/interfaces: /home/parallels/practica_ROS/ros2_prac2_ws/src/interfaces/msg/CustomString.msg
 CMakeFiles/interfaces: /home/parallels/practica_ROS/ros2_prac2_ws/src/interfaces/msg/InfPersonalUsuario.msg
+CMakeFiles/interfaces: /home/parallels/practica_ROS/ros2_prac2_ws/src/interfaces/msg/Posicion.msg
 
 
 interfaces: CMakeFiles/interfaces

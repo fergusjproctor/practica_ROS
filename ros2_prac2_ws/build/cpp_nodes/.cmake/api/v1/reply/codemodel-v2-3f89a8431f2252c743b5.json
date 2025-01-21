@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_nodes_uninstall-bad90a1e9312a24aa1c6.json",
+					"name" : "cpp_nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "emocion_usuario_nodo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-emocion_usuario_nodo-1edbe77deadad5bc7b7c.json",
+					"name" : "emocion_usuario_nodo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empaquetado_nodo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empaquetado_nodo-d6ede98d5c000d6b00d6.json",
+					"name" : "empaquetado_nodo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "informacion_personal_nodo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-informacion_personal_nodo-896097d516124bea0fdd.json",
+					"name" : "informacion_personal_nodo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "posicion_usuario_nodo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-posicion_usuario_nodo-3d04d453c9989f4b34de.json",
+					"name" : "posicion_usuario_nodo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f8ea093905a81581be6a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes",
+		"source" : "/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

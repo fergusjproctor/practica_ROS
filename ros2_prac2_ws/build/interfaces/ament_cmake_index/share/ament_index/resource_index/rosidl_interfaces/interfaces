@@ -2,3 +2,5 @@ msg/CustomString.idl
 msg/CustomString.msg
 msg/InfPersonalUsuario.idl
 msg/InfPersonalUsuario.msg
+msg/Posicion.idl
+msg/Posicion.msg

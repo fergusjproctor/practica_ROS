@@ -1,0 +1,27 @@
+[0.007s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.026s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.039s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.135s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.161s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.278s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.374s] -- Found interfaces: 0.0.0 (/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake)
+[0.415s] -- Configuring done
+[0.429s] -- Generating done
+[0.434s] -- Build files have been written to: /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes
+[0.447s] [35m[1mScanning dependencies of target posicion_usuario_nodo[0m
+[0.464s] [ 25%] Built target emocion_usuario_nodo
+[0.482s] [ 50%] Built target empaquetado_nodo
+[0.503s] [ 75%] Built target informacion_personal_nodo
+[0.523s] [ 87%] [32mBuilding CXX object CMakeFiles/posicion_usuario_nodo.dir/src/posicion_usuario_nodo.cpp.o[0m
+[0.652s] In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/posicion_usuario_nodo.cpp:1[m[K:
+[0.652s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/posicion_usuario_nodo.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces/msg/posicion.hpp: No such file or directory
+[0.652s]     6 | #include [01;31m[K"interfaces/msg/posicion.hpp"[m[K
+[0.652s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.652s] compilation terminated.
+[0.655s] make[2]: *** [CMakeFiles/posicion_usuario_nodo.dir/build.make:63: CMakeFiles/posicion_usuario_nodo.dir/src/posicion_usuario_nodo.cpp.o] Error 1
+[0.655s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/posicion_usuario_nodo.dir/all] Error 2
+[0.655s] make: *** [Makefile:141: all] Error 2
+[0.657s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

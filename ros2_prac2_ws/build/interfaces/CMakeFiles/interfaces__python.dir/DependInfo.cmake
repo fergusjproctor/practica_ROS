@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_custom_string_s.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_custom_string_s.c.o"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_inf_personal_usuario_s.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_inf_personal_usuario_s.c.o"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_posicion_s.c" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_posicion_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

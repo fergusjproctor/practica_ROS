@@ -46,6 +46,20 @@ rosidl_runtime_c/primitives_sequence.h
 rosidl_runtime_c/primitives_sequence_functions.h
 /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/rosidl_runtime_c/primitives_sequence_functions.h
 
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/_posicion_s.c
+Python.h
+-
+stdbool.h
+-
+numpy/ndarrayobject.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/numpy/ndarrayobject.h
+rosidl_runtime_c/visibility_control.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/rosidl_runtime_c/visibility_control.h
+interfaces/msg/detail/posicion__struct.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/interfaces/msg/detail/posicion__struct.h
+interfaces/msg/detail/posicion__functions.h
+/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_py/interfaces/msg/interfaces/msg/detail/posicion__functions.h
+
 /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
 stdbool.h
 -
@@ -695,6 +709,26 @@ stdint.h
 -
 rosidl_runtime_c/string.h
 rosidl_generator_c/interfaces/msg/detail/rosidl_runtime_c/string.h
+
+rosidl_generator_c/interfaces/msg/detail/posicion__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/interfaces/msg/detail/interfaces/msg/rosidl_generator_c__visibility_control.h
+interfaces/msg/detail/posicion__struct.h
+rosidl_generator_c/interfaces/msg/detail/interfaces/msg/detail/posicion__struct.h
+
+rosidl_generator_c/interfaces/msg/detail/posicion__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h
 

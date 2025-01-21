@@ -26,6 +26,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CustomString.msg"
   "msg/InfPersonalUsuario.msg"
+  "msg/Posicion.msg"
 )
 
 if(BUILD_TESTING)

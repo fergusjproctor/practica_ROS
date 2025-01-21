@@ -1,0 +1,16 @@
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:25:64:[m[K [01;31m[Kerror: [m[K‘[01m[KPosicion[m[K’ in namespace ‘[01m[Kinterfaces::msg[m[K’ does not name a type
+   25 | void EmpaquetadoNodo::posicion_callback(const interfaces::msg::[01;31m[KPosicion[m[K::SharedPtr msg) const
+      |                                                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:25:84:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   25 | void EmpaquetadoNodo::posicion_callback(const interfaces::msg::Posicion::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                                                    [01;31m[K^~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:25:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   25 | void EmpaquetadoNodo::posicion_callback[34m[K([m[Kconst interfaces::msg::Posicion::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+      |                                        [34m[K~[m[K                                          [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                                   [32m[K)[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:25:84:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   25 | void EmpaquetadoNodo::posicion_callback(const interfaces::msg::Posicion::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                                                    [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/empaquetado_nodo.dir/build.make:63: CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/empaquetado_nodo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

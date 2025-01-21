@@ -13,7 +13,12 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__struct.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__traits.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/posicion__builder.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/posicion__struct.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/posicion__traits.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/posicion__type_support.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/inf_personal_usuario.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/posicion.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/custom_string.hpp"
   )
 
 

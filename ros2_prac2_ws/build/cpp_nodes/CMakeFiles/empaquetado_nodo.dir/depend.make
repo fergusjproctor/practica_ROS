@@ -5,7 +5,12 @@ CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/prac
 CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__struct.hpp
 CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__traits.hpp
 CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.hpp
+CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__builder.hpp
+CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__struct.hpp
+CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__traits.hpp
+CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__type_support.hpp
 CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/inf_personal_usuario.hpp
+CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/posicion.hpp
 CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp
 CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o: /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp

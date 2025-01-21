@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_adapter/interfaces:msg/CustomString.idl",
-    "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_adapter/interfaces:msg/InfPersonalUsuario.idl"
+    "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_adapter/interfaces:msg/InfPersonalUsuario.idl",
+    "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_adapter/interfaces:msg/Posicion.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -27,6 +28,7 @@
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
     "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_adapter/interfaces/msg/CustomString.idl",
-    "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_adapter/interfaces/msg/InfPersonalUsuario.idl"
+    "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_adapter/interfaces/msg/InfPersonalUsuario.idl",
+    "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_adapter/interfaces/msg/Posicion.idl"
   ]
 }

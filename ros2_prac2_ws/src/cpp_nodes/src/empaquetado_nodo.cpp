@@ -9,6 +9,8 @@ EmpaquetadoNodo::EmpaquetadoNodo()
     "topic", 10, std::bind(&EmpaquetadoNodo::topic_callback, this, _1));
   subscription_emocion_ = this->create_subscription<std_msgs::msg::String>(
     "topic_emocion", 10, std::bind(&EmpaquetadoNodo::emocion_callback, this, _1));
+  subscription_posicion_ = this->create_subscription<interfaces::msg::Posicion>(
+    "topic_Posicion", 10, std::bind(&EmpaquetadoNodo::posicion_callback, this, _1));
   
 }
 
@@ -20,6 +22,11 @@ void EmpaquetadoNodo::topic_callback(const interfaces::msg::InfPersonalUsuario::
 void EmpaquetadoNodo::emocion_callback(const std_msgs::msg::String::SharedPtr msg) const  
 {
   RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->data.c_str());  
+}
+
+void EmpaquetadoNodo::posicion_callback(const interfaces::msg::Posicion::SharedPtr msg) const  
+{
+  RCLCPP_INFO(this->get_logger(), "I heard: '%d %d %d'", msg->x, msg->y, msg->z);  
 }
 
 

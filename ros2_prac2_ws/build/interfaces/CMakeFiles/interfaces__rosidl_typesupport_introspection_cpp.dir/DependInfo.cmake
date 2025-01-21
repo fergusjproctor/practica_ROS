@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__type_support.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__type_support.cpp.o"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.cpp.o"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/posicion__type_support.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/posicion__type_support.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,6 +28,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__type_support.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_introspection_cpp.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp"
   "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/posicion__rosidl_typesupport_introspection_cpp.hpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp"
+  "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/posicion__type_support.cpp" "/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp"
   )
 
 

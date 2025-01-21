@@ -1,0 +1,5 @@
+[ 37%] Built target emocion_usuario_nodo
+[ 50%] Built target posicion_usuario_nodo
+[35m[1mScanning dependencies of target empaquetado_nodo[0m
+[ 75%] Built target informacion_personal_nodo
+[ 87%] [32mBuilding CXX object CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o[0m

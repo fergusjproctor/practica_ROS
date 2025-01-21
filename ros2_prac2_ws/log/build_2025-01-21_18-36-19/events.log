@@ -1,0 +1,461 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000355] (cpp_nodes) JobQueued: {'identifier': 'cpp_nodes', 'dependencies': OrderedDict([('interfaces', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces')])}
+[0.000416] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.007984] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.008230] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.008288] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces', '--', '-j2', '-l2'], 'cwd': '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('SSH_AGENT_PID', '1854'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/practica_ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1757'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3736'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'parallels'), ('JOURNAL_STREAM', '9:38892'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/parallels:@/tmp/.ICE-unix/1894,unix/parallels:/tmp/.ICE-unix/1894'), ('INVOCATION_ID', 'c1b6778908de4fbb9f1345ed3e2ccdca'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ee6f5aab-1af6-4946-aee3-35c5f0d6abeb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.032069] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.045756] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.045843] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099544] (-) TimerEvent: {}
+[0.139588] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.140890] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.143048] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199821] (-) TimerEvent: {}
+[0.243090] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.275018] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.299942] (-) TimerEvent: {}
+[0.350495] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.400220] (-) TimerEvent: {}
+[0.412962] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.417989] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.433784] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.435013] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.491775] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.492361] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.492656] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[0.500355] (-) TimerEvent: {}
+[0.515000] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.539875] (interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.541431] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.555106] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.560198] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.600513] (-) TimerEvent: {}
+[0.652266] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.659943] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces\n'}
+[0.682329] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.682457] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__cpp\x1b[0m\n'}
+[0.698592] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.700953] (-) TimerEvent: {}
+[0.801128] (-) TimerEvent: {}
+[0.901774] (-) TimerEvent: {}
+[0.938107] (interfaces) StdoutLine: {'line': b'[  4%] Built target interfaces__cpp\n'}
+[0.948580] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.972008] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.990706] (interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/custom_string__functions.c.o\x1b[0m\n'}
+[1.001861] (-) TimerEvent: {}
+[1.071258] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/inf_personal_usuario__functions.c.o\x1b[0m\n'}
+[1.102267] (-) TimerEvent: {}
+[1.113856] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.124704] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/posicion__functions.c.o\x1b[0m\n'}
+[1.128197] (interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/custom_string__type_support.cpp.o\x1b[0m\n'}
+[1.153309] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.180600] (interfaces) StdoutLine: {'line': b'[ 17%] Built target interfaces__rosidl_generator_c\n'}
+[1.200732] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.202339] (-) TimerEvent: {}
+[1.301260] (interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/inf_personal_usuario__type_support.cpp.o\x1b[0m\n'}
+[1.302411] (-) TimerEvent: {}
+[1.402681] (-) TimerEvent: {}
+[1.493542] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.502788] (-) TimerEvent: {}
+[1.512899] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/posicion__type_support.cpp.o\x1b[0m\n'}
+[1.530917] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/custom_string__type_support.cpp.o\x1b[0m\n'}
+[1.602894] (-) TimerEvent: {}
+[1.703223] (-) TimerEvent: {}
+[1.743380] (interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.803300] (-) TimerEvent: {}
+[1.849236] (interfaces) StdoutLine: {'line': b'[ 27%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.861204] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/inf_personal_usuario__type_support.cpp.o\x1b[0m\n'}
+[1.865852] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.903383] (-) TimerEvent: {}
+[2.003684] (-) TimerEvent: {}
+[2.103986] (-) TimerEvent: {}
+[2.107921] (interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/posicion__type_support.cpp.o\x1b[0m\n'}
+[2.203915] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.204022] (-) TimerEvent: {}
+[2.270983] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/custom_string__type_support.c.o\x1b[0m\n'}
+[2.304129] (-) TimerEvent: {}
+[2.336015] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/inf_personal_usuario__type_support.c.o\x1b[0m\n'}
+[2.345886] (interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.376141] (interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/posicion__type_support.c.o\x1b[0m\n'}
+[2.395312] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.404232] (-) TimerEvent: {}
+[2.419206] (interfaces) StdoutLine: {'line': b'[ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.425416] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.470797] (interfaces) StdoutLine: {'line': b'[ 46%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[2.504316] (-) TimerEvent: {}
+[2.504606] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.579783] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.602938] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/custom_string__type_support.cpp.o\x1b[0m\n'}
+[2.604579] (-) TimerEvent: {}
+[2.704806] (-) TimerEvent: {}
+[2.787174] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.804906] (-) TimerEvent: {}
+[2.821918] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/custom_string__type_support.cpp.o\x1b[0m\n'}
+[2.846257] (interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/inf_personal_usuario__type_support.cpp.o\x1b[0m\n'}
+[2.864436] (interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/inf_personal_usuario__type_support.cpp.o\x1b[0m\n'}
+[2.879027] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/posicion__type_support.cpp.o\x1b[0m\n'}
+[2.905003] (-) TimerEvent: {}
+[2.967622] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.005102] (-) TimerEvent: {}
+[3.039179] (interfaces) StdoutLine: {'line': b'[ 63%] Built target interfaces__rosidl_typesupport_c\n'}
+[3.039848] (interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/posicion__type_support.cpp.o\x1b[0m\n'}
+[3.074955] (interfaces) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.105196] (-) TimerEvent: {}
+[3.205422] (-) TimerEvent: {}
+[3.300287] (interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.305513] (-) TimerEvent: {}
+[3.326338] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.348543] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/custom_string__type_support_c.cpp.o\x1b[0m\n'}
+[3.383469] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[3.405611] (-) TimerEvent: {}
+[3.418925] (interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/inf_personal_usuario__type_support_c.cpp.o\x1b[0m\n'}
+[3.505713] (-) TimerEvent: {}
+[3.606060] (-) TimerEvent: {}
+[3.610330] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/posicion__type_support_c.cpp.o\x1b[0m\n'}
+[3.706158] (-) TimerEvent: {}
+[3.806530] (-) TimerEvent: {}
+[3.814746] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.866450] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.882915] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces\n'}
+[3.888631] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__py\x1b[0m\n'}
+[3.895460] (interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.906614] (-) TimerEvent: {}
+[4.006941] (-) TimerEvent: {}
+[4.107320] (-) TimerEvent: {}
+[4.207699] (-) TimerEvent: {}
+[4.308066] (-) TimerEvent: {}
+[4.309376] (interfaces) StdoutLine: {'line': b'[ 78%] Built target interfaces__py\n'}
+[4.316921] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__python\x1b[0m\n'}
+[4.375754] (interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_custom_string_s.c.o\x1b[0m\n'}
+[4.380213] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_inf_personal_usuario_s.c.o\x1b[0m\n'}
+[4.408164] (-) TimerEvent: {}
+[4.455292] (interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_posicion_s.c.o\x1b[0m\n'}
+[4.508295] (-) TimerEvent: {}
+[4.515407] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so\x1b[0m\n'}
+[4.548695] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__python\n'}
+[4.556298] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.584580] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.600450] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.608370] (-) TimerEvent: {}
+[4.616537] (interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.703696] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.708508] (-) TimerEvent: {}
+[4.718912] (interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.740235] (interfaces) StdoutLine: {'line': b'[ 95%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.747574] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.784457] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.808609] (-) TimerEvent: {}
+[4.819142] (interfaces) StdoutLine: {'line': b'[ 97%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[4.841397] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.877799] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.899215] (interfaces) CommandEnded: {'returncode': 0}
+[4.899911] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[4.908697] (-) TimerEvent: {}
+[4.911708] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces'], 'cwd': '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('SSH_AGENT_PID', '1854'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/practica_ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1757'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3736'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'parallels'), ('JOURNAL_STREAM', '9:38892'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/parallels:@/tmp/.ICE-unix/1894,unix/parallels:/tmp/.ICE-unix/1894'), ('INVOCATION_ID', 'c1b6778908de4fbb9f1345ed3e2ccdca'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ee6f5aab-1af6-4946-aee3-35c5f0d6abeb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/opt/ros/foxy')]), 'shell': False}
+[4.918971] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.919458] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[4.920457] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces\n'}
+[4.920803] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg\n'}
+[4.921145] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.921462] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/custom_string.h\n'}
+[4.922217] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/inf_personal_usuario.h\n'}
+[4.923061] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/posicion.h\n'}
+[4.923719] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[4.924055] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__type_support.h\n'}
+[4.924814] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__struct.h\n'}
+[4.925483] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.h\n'}
+[4.926133] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.h\n'}
+[4.926901] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__struct.h\n'}
+[4.927544] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__functions.c\n'}
+[4.928206] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__functions.h\n'}
+[4.928738] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__functions.c\n'}
+[4.928854] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__functions.h\n'}
+[4.928973] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__struct.h\n'}
+[4.929072] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__functions.h\n'}
+[4.929184] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__functions.c\n'}
+[4.929344] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[4.929457] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[4.930790] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[4.931082] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[4.931175] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces\n'}
+[4.931237] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg\n'}
+[4.931299] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.931352] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[4.931418] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__rosidl_typesupport_fastrtps_c.h\n'}
+[4.931526] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__rosidl_typesupport_fastrtps_c.h\n'}
+[4.931614] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_fastrtps_c.h\n'}
+[4.931867] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.932140] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.932230] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces\n'}
+[4.934998] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg\n'}
+[4.935109] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[4.935187] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.935296] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/dds_fastrtps\n'}
+[4.935368] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.935486] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.935583] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.935784] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.936031] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.936115] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces\n'}
+[4.936182] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg\n'}
+[4.936244] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.936296] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[4.936359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.c\n'}
+[4.936484] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_c.h\n'}
+[4.936591] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_introspection_c.h\n'}
+[4.936687] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.c\n'}
+[4.936790] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__rosidl_typesupport_introspection_c.h\n'}
+[4.936877] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__type_support.c\n'}
+[4.937070] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.937281] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.937458] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[4.937690] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.937778] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces\n'}
+[4.937838] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg\n'}
+[4.937902] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/custom_string.hpp\n'}
+[4.938032] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/posicion.hpp\n'}
+[4.938142] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.938201] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[4.938267] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__traits.hpp\n'}
+[4.938359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__builder.hpp\n'}
+[4.938460] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__struct.hpp\n'}
+[4.938568] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.hpp\n'}
+[4.938681] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__traits.hpp\n'}
+[4.938786] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__type_support.hpp\n'}
+[4.938874] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__builder.hpp\n'}
+[4.941371] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__traits.hpp\n'}
+[4.941500] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__builder.hpp\n'}
+[4.941597] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__struct.hpp\n'}
+[4.941694] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.hpp\n'}
+[4.941806] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__struct.hpp\n'}
+[4.941927] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/inf_personal_usuario.hpp\n'}
+[4.942069] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces\n'}
+[4.942128] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg\n'}
+[4.942185] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[4.942293] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.942419] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.942515] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/posicion__type_support.cpp\n'}
+[4.942605] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.cpp\n'}
+[4.942706] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.942851] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.cpp\n'}
+[4.943078] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.943387] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.943565] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[4.943758] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.943849] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[4.943950] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[4.944098] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[4.978198] (interfaces) StdoutLine: {'line': b"Compiling '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...\n"}
+[4.994983] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg\n'}
+[4.995096] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_custom_string_s.c\n'}
+[4.995130] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_posicion.py\n'}
+[4.995159] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_inf_personal_usuario.py\n'}
+[4.995187] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_inf_personal_usuario_s.c\n'}
+[4.995215] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py\n'}
+[4.995242] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_custom_string.py\n'}
+[4.995268] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_posicion_s.c\n'}
+[4.995294] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.995323] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.995351] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.995379] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.995405] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.995431] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.995457] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[4.995484] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__python.so" to ""\n'}
+[4.995513] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/CustomString.idl\n'}
+[4.995539] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/InfPersonalUsuario.idl\n'}
+[4.995564] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/Posicion.idl\n'}
+[4.995590] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/CustomString.msg\n'}
+[4.995616] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/InfPersonalUsuario.msg\n'}
+[4.995642] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/Posicion.msg\n'}
+[4.995668] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[4.995694] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[4.995719] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[4.995745] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[4.995773] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[4.995799] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[4.995826] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[4.995852] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[4.995878] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[4.995903] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[4.995929] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[4.995954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[4.995980] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[4.996006] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.996032] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.996057] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.996084] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.996110] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.996135] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.996161] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.996187] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.996213] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.996239] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.996265] (interfaces) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.996291] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.996320] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.996349] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.996375] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.996401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.996427] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.996452] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[4.996478] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[4.996504] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/package.xml\n'}
+[5.002782] (interfaces) CommandEnded: {'returncode': 0}
+[5.018903] (-) TimerEvent: {}
+[5.019879] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[5.020253] (cpp_nodes) JobStarted: {'identifier': 'cpp_nodes'}
+[5.031913] (cpp_nodes) JobProgress: {'identifier': 'cpp_nodes', 'progress': 'cmake'}
+[5.032049] (cpp_nodes) JobProgress: {'identifier': 'cpp_nodes', 'progress': 'build'}
+[5.032078] (cpp_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes', '--', '-j2', '-l2'], 'cwd': '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('SSH_AGENT_PID', '1854'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/practica_ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1757'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3736'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'parallels'), ('JOURNAL_STREAM', '9:38892'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/parallels:@/tmp/.ICE-unix/1894,unix/parallels:/tmp/.ICE-unix/1894'), ('INVOCATION_ID', 'c1b6778908de4fbb9f1345ed3e2ccdca'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ee6f5aab-1af6-4946-aee3-35c5f0d6abeb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy')]), 'shell': False}
+[5.054294] (cpp_nodes) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.067869] (cpp_nodes) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.119581] (-) TimerEvent: {}
+[5.168713] (cpp_nodes) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.191527] (cpp_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.193918] (cpp_nodes) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.219678] (-) TimerEvent: {}
+[5.294125] (cpp_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.319775] (-) TimerEvent: {}
+[5.327665] (cpp_nodes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.328833] (cpp_nodes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.419869] (-) TimerEvent: {}
+[5.433304] (cpp_nodes) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake)\n'}
+[5.477809] (cpp_nodes) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.495693] (cpp_nodes) StdoutLine: {'line': b'-- Generating done\n'}
+[5.505104] (cpp_nodes) StdoutLine: {'line': b'-- Build files have been written to: /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes\n'}
+[5.522936] (-) TimerEvent: {}
+[5.550998] (cpp_nodes) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/posicion_usuario_nodo.dir/src/posicion_usuario_nodo.cpp.o\x1b[0m\n'}
+[5.560539] (cpp_nodes) StdoutLine: {'line': b'[ 37%] Built target emocion_usuario_nodo\n'}
+[5.569181] (cpp_nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target empaquetado_nodo\x1b[0m\n'}
+[5.622860] (cpp_nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o\x1b[0m\n'}
+[5.622981] (-) TimerEvent: {}
+[5.723155] (-) TimerEvent: {}
+[5.823560] (-) TimerEvent: {}
+[5.923992] (-) TimerEvent: {}
+[6.024721] (-) TimerEvent: {}
+[6.125617] (-) TimerEvent: {}
+[6.226494] (-) TimerEvent: {}
+[6.327432] (-) TimerEvent: {}
+[6.427879] (-) TimerEvent: {}
+[6.528406] (-) TimerEvent: {}
+[6.628946] (-) TimerEvent: {}
+[6.729380] (-) TimerEvent: {}
+[6.829816] (-) TimerEvent: {}
+[6.930327] (-) TimerEvent: {}
+[7.030797] (-) TimerEvent: {}
+[7.131286] (-) TimerEvent: {}
+[7.231711] (-) TimerEvent: {}
+[7.332223] (-) TimerEvent: {}
+[7.432793] (-) TimerEvent: {}
+[7.533355] (-) TimerEvent: {}
+[7.634124] (-) TimerEvent: {}
+[7.736588] (-) TimerEvent: {}
+[7.837466] (-) TimerEvent: {}
+[7.937895] (-) TimerEvent: {}
+[8.038352] (-) TimerEvent: {}
+[8.138944] (-) TimerEvent: {}
+[8.239466] (-) TimerEvent: {}
+[8.341016] (-) TimerEvent: {}
+[8.441736] (-) TimerEvent: {}
+[8.544937] (-) TimerEvent: {}
+[8.646030] (-) TimerEvent: {}
+[8.746882] (-) TimerEvent: {}
+[8.847503] (-) TimerEvent: {}
+[8.948169] (-) TimerEvent: {}
+[9.051745] (-) TimerEvent: {}
+[9.160897] (-) TimerEvent: {}
+[9.261745] (-) TimerEvent: {}
+[9.362785] (-) TimerEvent: {}
+[9.463447] (-) TimerEvent: {}
+[9.564193] (-) TimerEvent: {}
+[9.664734] (-) TimerEvent: {}
+[9.735906] (cpp_nodes) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable posicion_usuario_nodo\x1b[0m\n'}
+[9.764836] (-) TimerEvent: {}
+[9.865437] (-) TimerEvent: {}
+[9.966037] (-) TimerEvent: {}
+[10.067404] (-) TimerEvent: {}
+[10.080290] (cpp_nodes) StdoutLine: {'line': b'[ 62%] Built target posicion_usuario_nodo\n'}
+[10.127888] (cpp_nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target informacion_personal_nodo\x1b[0m\n'}
+[10.167529] (-) TimerEvent: {}
+[10.183888] (cpp_nodes) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.o\x1b[0m\n'}
+[10.267649] (-) TimerEvent: {}
+[10.368158] (-) TimerEvent: {}
+[10.468649] (-) TimerEvent: {}
+[10.568982] (-) TimerEvent: {}
+[10.669435] (-) TimerEvent: {}
+[10.770258] (-) TimerEvent: {}
+[10.872077] (-) TimerEvent: {}
+[10.973010] (-) TimerEvent: {}
+[11.073434] (-) TimerEvent: {}
+[11.173894] (-) TimerEvent: {}
+[11.274439] (-) TimerEvent: {}
+[11.375045] (-) TimerEvent: {}
+[11.475526] (-) TimerEvent: {}
+[11.576017] (-) TimerEvent: {}
+[11.676778] (-) TimerEvent: {}
+[11.777399] (-) TimerEvent: {}
+[11.878171] (-) TimerEvent: {}
+[11.979015] (-) TimerEvent: {}
+[12.079453] (-) TimerEvent: {}
+[12.180236] (-) TimerEvent: {}
+[12.280677] (-) TimerEvent: {}
+[12.381210] (-) TimerEvent: {}
+[12.482033] (-) TimerEvent: {}
+[12.582510] (-) TimerEvent: {}
+[12.682915] (-) TimerEvent: {}
+[12.783325] (-) TimerEvent: {}
+[12.883737] (-) TimerEvent: {}
+[12.982649] (cpp_nodes) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable empaquetado_nodo\x1b[0m\n'}
+[12.985003] (-) TimerEvent: {}
+[13.085360] (-) TimerEvent: {}
+[13.185840] (-) TimerEvent: {}
+[13.286198] (-) TimerEvent: {}
+[13.339266] (cpp_nodes) StdoutLine: {'line': b'[ 87%] Built target empaquetado_nodo\n'}
+[13.386325] (-) TimerEvent: {}
+[13.390991] (cpp_nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable informacion_personal_nodo\x1b[0m\n'}
+[13.486499] (-) TimerEvent: {}
+[13.500688] (cpp_nodes) StdoutLine: {'line': b'[100%] Built target informacion_personal_nodo\n'}
+[13.526206] (cpp_nodes) CommandEnded: {'returncode': 0}
+[13.528802] (cpp_nodes) JobProgress: {'identifier': 'cpp_nodes', 'progress': 'install'}
+[13.532929] (cpp_nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes'], 'cwd': '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('SSH_AGENT_PID', '1854'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/practica_ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1757'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3736'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'parallels'), ('JOURNAL_STREAM', '9:38892'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/parallels:@/tmp/.ICE-unix/1894,unix/parallels:/tmp/.ICE-unix/1894'), ('INVOCATION_ID', 'c1b6778908de4fbb9f1345ed3e2ccdca'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ee6f5aab-1af6-4946-aee3-35c5f0d6abeb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy')]), 'shell': False}
+[13.544004] (cpp_nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.544955] (cpp_nodes) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/informacion_personal_nodo\n'}
+[13.550710] (cpp_nodes) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/informacion_personal_nodo" to ""\n'}
+[13.552047] (cpp_nodes) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/empaquetado_nodo\n'}
+[13.553888] (cpp_nodes) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/empaquetado_nodo" to ""\n'}
+[13.555104] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/emocion_usuario_nodo\n'}
+[13.555590] (cpp_nodes) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/posicion_usuario_nodo\n'}
+[13.558198] (cpp_nodes) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/lib/cpp_nodes/posicion_usuario_nodo" to ""\n'}
+[13.558841] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include\n'}
+[13.559280] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/emocion_usuario_nodo.hpp\n'}
+[13.559588] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/empaquetado_nodo.hpp\n'}
+[13.560150] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/base_node.hpp\n'}
+[13.560637] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/informacion_personal_nodo.hpp\n'}
+[13.560955] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/input_node.hpp\n'}
+[13.561487] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/derived_input_node.hpp\n'}
+[13.561792] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/derived_node.hpp\n'}
+[13.562100] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/posicion_usuario_nodo.hpp\n'}
+[13.562415] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/cpp_nodes\n'}
+[13.563453] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/ament_index/resource_index/package_run_dependencies/cpp_nodes\n'}
+[13.563876] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/ament_index/resource_index/parent_prefix_path/cpp_nodes\n'}
+[13.566313] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.sh\n'}
+[13.566708] (cpp_nodes) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.dsv\n'}
+[13.567348] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/environment/path.sh\n'}
+[13.567443] (cpp_nodes) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/environment/path.dsv\n'}
+[13.568271] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/local_setup.bash\n'}
+[13.568357] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/local_setup.sh\n'}
+[13.568448] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/local_setup.zsh\n'}
+[13.568533] (cpp_nodes) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/local_setup.dsv\n'}
+[13.569727] (cpp_nodes) StdoutLine: {'line': b'-- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/package.dsv\n'}
+[13.570968] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/ament_index/resource_index/packages/cpp_nodes\n'}
+[13.571360] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.571502] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig.cmake\n'}
+[13.571591] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig-version.cmake\n'}
+[13.572182] (cpp_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/share/cpp_nodes/package.xml\n'}
+[13.574300] (cpp_nodes) CommandEnded: {'returncode': 0}
+[13.586212] (cpp_nodes) JobEnded: {'identifier': 'cpp_nodes', 'rc': 0}
+[13.586473] (-) TimerEvent: {}
+[13.587331] (-) EventReactorShutdown: {}
