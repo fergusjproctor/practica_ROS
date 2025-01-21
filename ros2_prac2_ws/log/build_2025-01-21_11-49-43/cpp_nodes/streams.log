@@ -1,0 +1,16 @@
+[0.009s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.057s] [35m[1mScanning dependencies of target main_node[0m
+[0.065s] [ 40%] Built target empaquetado_nodo
+[0.102s] [ 60%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o[0m
+[1.704s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:[m[K In constructor ‘[01m[KInformacionPersonalNodo::InformacionPersonalNodo(const string&)[m[K’:
+[1.704s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprompts_[m[K’ was not declared in this scope
+[1.704s]    12 |     [01;31m[Kprompts_[m[K = {"Como se llama?", "Que edad tiene?", "Que idiomas habla?"};
+[1.704s]       |     [01;31m[K^~~~~~~~[m[K
+[1.704s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:[m[K In member function ‘[01m[Kvirtual void InformacionPersonalNodo::get_user_input()[m[K’:
+[1.704s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:26:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kprompts_[m[K’ was not declared in this scope
+[1.705s]    26 |         std::cout << [01;31m[Kprompts_[m[K[counter % 3] << std::endl;
+[1.705s]       |                      [01;31m[K^~~~~~~~[m[K
+[2.436s] make[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o] Error 1
+[2.436s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/main_node.dir/all] Error 2
+[2.437s] make: *** [Makefile:141: all] Error 2
+[2.452s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.155s] [35m[1mScanning dependencies of target main_node[0m
+[0.178s] [ 40%] Built target empaquetado_nodo
+[0.198s] [ 60%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o[0m
+[1.229s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.230s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.230s]                  from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/informacion_personal_nodo.hpp:4[m[K,
+[1.230s]                  from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:1[m[K:
+[1.230s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:[m[K In member function ‘[01m[Kvirtual void InformacionPersonalNodo::get_user_input()[m[K’:
+[1.230s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:58:78:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmessage.interfaces::msg::InfPersonalUsuario_<std::allocator<void> >::edad[m[K’, which is of non-class type ‘[01m[Kinterfaces::msg::InfPersonalUsuario_<std::allocator<void> >::_edad_type[m[K’ {aka ‘[01m[Klong int[m[K’}
+[1.230s]    58 |             RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.edad.[01;31m[Kc_str[m[K());
+[1.230s]       |                                                                              [01;31m[K^~~~~[m[K
+[1.781s] make[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o] Error 1
+[1.781s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/main_node.dir/all] Error 2
+[1.786s] make: *** [Makefile:141: all] Error 2
+[1.789s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

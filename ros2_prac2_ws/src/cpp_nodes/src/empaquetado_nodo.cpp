@@ -5,13 +5,13 @@ using std::placeholders::_1;
 EmpaquetadoNodo::EmpaquetadoNodo()
 : Node("empaquetado_nodo")
 {
-  subscription_ = this->create_subscription<interfaces::msg::CustomString>(  // CHANGE
+  subscription_ = this->create_subscription<interfaces::msg::InfPersonalUsuario>(  
     "topic", 10, std::bind(&EmpaquetadoNodo::topic_callback, this, _1));
 }
 
-void EmpaquetadoNodo::topic_callback(const interfaces::msg::CustomString::SharedPtr msg) const  // CHANGE
+void EmpaquetadoNodo::topic_callback(const interfaces::msg::InfPersonalUsuario::SharedPtr msg) const  
 {
-  RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->data.c_str());  // CHANGE
+  RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->nombre.c_str());  
 }
 
 

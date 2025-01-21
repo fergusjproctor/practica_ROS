@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target empaquetado_nodo[0m
+[ 60%] Built target main_node
+[ 80%] [32mBuilding CXX object CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o[0m

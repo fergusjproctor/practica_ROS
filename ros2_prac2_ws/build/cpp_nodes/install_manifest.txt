@@ -1,5 +1,6 @@
 /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/empaquetado_nodo.hpp
 /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/base_node.hpp
+/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/informacion_personal_nodo.hpp
 /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/input_node.hpp
 /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/derived_input_node.hpp
 /home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes/include/derived_node.hpp

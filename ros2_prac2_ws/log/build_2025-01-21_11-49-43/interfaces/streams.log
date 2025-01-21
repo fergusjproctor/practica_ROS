@@ -1,0 +1,152 @@
+[0.068s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces -- -j2 -l2
+[0.204s] [  2%] Built target interfaces__cpp
+[0.205s] [ 12%] Built target interfaces__rosidl_generator_c
+[0.238s] [ 23%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.242s] [ 33%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.263s] [ 43%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.270s] [ 53%] Built target interfaces__rosidl_typesupport_cpp
+[0.289s] [ 64%] Built target interfaces__rosidl_typesupport_c
+[0.291s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.305s] [ 74%] Built target interfaces
+[0.319s] [ 76%] Built target interfaces__py
+[0.331s] [35m[1mScanning dependencies of target interfaces__python[0m
+[0.379s] [ 79%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_inf_personal_usuario_s.c.o[0m
+[0.392s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_custom_string_s.c.o[0m
+[0.723s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[0.762s] [ 84%] Built target interfaces__python
+[0.776s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.796s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[0.811s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.832s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[0.879s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[0.898s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[0.901s] [ 94%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[0.909s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.922s] [ 94%] Built target interfaces__rosidl_typesupport_c__pyext
+[0.938s] [ 97%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.988s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[1.034s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.044s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces -- -j2 -l2
+[1.055s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces
+[1.064s] -- Install configuration: ""
+[1.064s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[1.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces
+[1.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg
+[1.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/custom_string.h
+[1.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/inf_personal_usuario.h
+[1.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail
+[1.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__struct.h
+[1.065s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.h
+[1.066s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.h
+[1.067s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__struct.h
+[1.067s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__functions.c
+[1.067s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__functions.c
+[1.067s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__functions.h
+[1.067s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__functions.h
+[1.067s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__rosidl_typesupport_fastrtps_c.h
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_fastrtps_c.h
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/dds_fastrtps
+[1.068s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.c
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_c.h
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_introspection_c.h
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.c
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[1.070s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces
+[1.071s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg
+[1.071s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/custom_string.hpp
+[1.071s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.071s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail
+[1.071s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__traits.hpp
+[1.071s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__builder.hpp
+[1.072s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.hpp
+[1.072s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__traits.hpp
+[1.072s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__builder.hpp
+[1.072s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__struct.hpp
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.hpp
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__struct.hpp
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/inf_personal_usuario.hpp
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__rosidl_typesupport_introspection_cpp.hpp
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/inf_personal_usuario__type_support.cpp
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/include/interfaces/msg/detail/custom_string__type_support.cpp
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[1.073s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[1.104s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg
+[1.104s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_custom_string_s.c
+[1.104s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_inf_personal_usuario.py
+[1.104s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_inf_personal_usuario_s.c
+[1.104s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py
+[1.104s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_custom_string.py
+[1.104s] -- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[1.105s] -- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[1.105s] -- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[1.106s] -- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[1.106s] -- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[1.106s] -- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[1.107s] -- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__python.so
+[1.107s] -- Set runtime path of "/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/lib/libinterfaces__python.so" to ""
+[1.107s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/CustomString.idl
+[1.107s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/InfPersonalUsuario.idl
+[1.107s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/CustomString.msg
+[1.108s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/msg/InfPersonalUsuario.msg
+[1.108s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[1.109s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[1.112s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[1.112s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[1.112s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/path.sh
+[1.112s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/environment/path.dsv
+[1.112s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/local_setup.bash
+[1.112s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/local_setup.sh
+[1.113s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/local_setup.zsh
+[1.113s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/local_setup.dsv
+[1.113s] -- Installing: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/package.dsv
+[1.113s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[1.114s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[1.114s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.115s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.115s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.115s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[1.115s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.115s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[1.116s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.116s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.116s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[1.117s] -- Up-to-date: /home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/package.xml
+[1.120s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/parallels/practica_ROS/ros2_prac2_ws/build/interfaces

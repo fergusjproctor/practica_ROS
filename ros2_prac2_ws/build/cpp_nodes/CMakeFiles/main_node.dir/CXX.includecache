@@ -67,6 +67,8 @@ rclcpp/rclcpp.hpp
 -
 string
 -
+vector
+-
 chrono
 -
 memory
@@ -79,10 +81,6 @@ informacion_personal_nodo.hpp
 /home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.hpp
 iostream
 -
-
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/main_2.cpp
-informacion_personal_nodo.hpp
-/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

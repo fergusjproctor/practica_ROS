@@ -8,6 +8,8 @@ InformacionPersonalNodo::InformacionPersonalNodo(const std::string &node_name)
 {
     RCLCPP_INFO(this->get_logger(), "InformacionPersonalNodo has started. Base constructor is always called before derived constructor.");
     publisher_ = this->create_publisher<interfaces::msg::InfPersonalUsuario>("topic", 10);
+    // define vector of strings, three elements
+    prompts_ = {"Como se llama?", "Que edad tiene?", "Que idiomas habla?"};
     //timer_ = this->create_wall_timer(
     //500ms, std::bind(&InformacionPersonalNodo::timer_callback, this));
     get_user_input();
@@ -15,11 +17,15 @@ InformacionPersonalNodo::InformacionPersonalNodo(const std::string &node_name)
 
 void InformacionPersonalNodo::get_user_input()
 {
+    interfaces::msg::InfPersonalUsuario message = interfaces::msg::InfPersonalUsuario();
+    // define counter which keeps track of which part of message 
+    int counter = 0;
     while (rclcpp::ok()) // Loop runs until ROS is shutdown
     {
-        std::cout << "Please type a string: ";
-        std::getline(std::cin, nombre_; // Read input from the user
-
+        std::string user_input_;
+        std::cout << prompts_[counter % 3] << std::endl;
+        std::getline(std::cin, user_input_); 
+        // Read input from the user
         if (user_input_.empty())
         {
             RCLCPP_WARN(this->get_logger(), "You entered an empty string. Try again.");
@@ -27,21 +33,33 @@ void InformacionPersonalNodo::get_user_input()
         else
         {
             RCLCPP_INFO(this->get_logger(), "You entered: '%s'", user_input_.c_str());
-            timer_callback();
+            message.nombre = user_input_;
         };
-        std::string input_str;
-        std::cout << "Please type an age: ";
-        std::getline(std::cin, input_str); // Read input from the user
-        edad_ = std::stoi(input_str);
-        RCLCPP_INFO(this->get_logger(), "You entered: '%d'", edad_);
+        // modulo operator, every 1st of three iterations print 'a'
+        std::cout << counter % 3 << std::endl;
+        if (counter % 3 == 0)
+        {
+            message.nombre = user_input_;
+        }
+        else if (counter % 3 == 1)
+        {
+            message.edad = std::stoi(user_input_);
+        }
+        else if (counter % 3 == 2)
+        {
+            std::vector<std::string> idiomas;
+            std::string idioma;
+            std::istringstream iss(user_input_);
+            while (std::getline(iss, idioma, ' '))
+            {
+                idiomas.push_back(idioma);
+            }
+            message.idiomas = idiomas;
+            RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.nombre.c_str());
+            publisher_->publish(message);
+        }
+        counter += 1;
+
         
     }
-}
-
-void InformacionPersonalNodo::timer_callback()
-{
-  auto message = interfaces::msg::InfPersonalUsuario();
-  message.data = user_input_;
-  RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
-  publisher_->publish(message);
 }

@@ -3,7 +3,7 @@
 
 #include <memory>
 #include "rclcpp/rclcpp.hpp"
-#include "interfaces/msg/custom_string.hpp" 
+#include "interfaces/msg/inf_personal_usuario.hpp" 
 
 class EmpaquetadoNodo : public rclcpp::Node
 {
@@ -11,9 +11,9 @@ public:
   EmpaquetadoNodo();
 
 private:
-  void topic_callback(const interfaces::msg::CustomString::SharedPtr msg) const;  // CHANGE
+  void topic_callback(const interfaces::msg::InfPersonalUsuario::SharedPtr msg) const;  // CHANGE
 
-  rclcpp::Subscription<interfaces::msg::CustomString>::SharedPtr subscription_;  // CHANGE
+  rclcpp::Subscription<interfaces::msg::InfPersonalUsuario>::SharedPtr subscription_;  // CHANGE
 };
 
 #endif 
