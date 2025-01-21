@@ -1,0 +1,41 @@
+[35m[1mScanning dependencies of target empaquetado_nodo[0m
+[35m[1mScanning dependencies of target main_node[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o[0m
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:[m[K In constructor ‘[01m[KEmpaquetadoNodo::EmpaquetadoNodo()[m[K’:
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_emocion_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_get_options[m[K’?
+   10 |   [01;31m[Ksubscription_emocion_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Krcl_subscription_get_options[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:10:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   10 |   subscription_emocion_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>(
+      |                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:10:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |   subscription_emocion_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:11:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kemocion_callback[m[K’ is not a member of ‘[01m[KEmpaquetadoNodo[m[K’
+   11 |     "topic_emocion", 10, std::bind(&EmpaquetadoNodo::[01;31m[Kemocion_callback[m[K, this, _1));
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:12:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   12 |   [01;31m[K)[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:[m[K At global scope:
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:20:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   20 | void EmpaquetadoNodo::emocion_callback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg) const
+      |                                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:20:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   20 | void EmpaquetadoNodo::emocion_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) const
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:20:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   20 | void EmpaquetadoNodo::emocion_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg) const
+      |                                       [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                           [32m[K)[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:20:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   20 | void EmpaquetadoNodo::emocion_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) const
+      |                                                           [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/empaquetado_nodo.dir/build.make:63: CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/empaquetado_nodo.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 60%] [32m[1mLinking CXX executable main_node[0m
+[ 80%] Built target main_node
+make: *** [Makefile:141: all] Error 2

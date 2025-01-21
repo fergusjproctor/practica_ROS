@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target emocion_usuario_nodo[0m
+[ 33%] Built target empaquetado_nodo
+[35m[1mScanning dependencies of target informacion_personal_nodo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/emocion_usuario_nodo.dir/src/emocion_usuario_nodo.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.o[0m
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:9:37:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+    9 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"[m[KInformacionPersonalNodo has started.);
+      |                                     [01;35m[K^[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:75:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   75 | }
+      | 
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:[m[K In constructor ‘[01m[KInformacionPersonalNodo::InformacionPersonalNodo(const string&)[m[K’:
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+    9 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "InformacionPersonalNodo has started.);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:9:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:8:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    8 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/informacion_personal_nodo.dir/build.make:63: CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/informacion_personal_nodo.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable emocion_usuario_nodo[0m
+[ 83%] Built target emocion_usuario_nodo
+make: *** [Makefile:141: all] Error 2

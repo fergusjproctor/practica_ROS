@@ -1,0 +1,6 @@
+[ 14%] [32m[1mLinking CXX executable emocion_usuario_nodo[0m
+[ 42%] Built target empaquetado_nodo
+[35m[1mScanning dependencies of target main_node[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_2.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable main_node[0m
+[ 85%] Built target main_node

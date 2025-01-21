@@ -1,0 +1,52 @@
+[0.007s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.033s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.173s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.220s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.355s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.357s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.463s] -- Found interfaces: 0.0.0 (/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake)
+[0.509s] -- Configuring done
+[0.524s] -- Generating done
+[0.528s] -- Build files have been written to: /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes
+[0.556s] [35m[1mScanning dependencies of target emocion_usuario_nodo[0m
+[0.587s] [ 16%] [32mBuilding CXX object CMakeFiles/emocion_usuario_nodo.dir/src/emocion_usuario_nodo.cpp.o[0m
+[0.589s] [ 50%] Built target empaquetado_nodo
+[0.595s] [35m[1mScanning dependencies of target informacion_personal_nodo[0m
+[0.742s] [ 66%] [32mBuilding CXX object CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.o[0m
+[2.275s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[2.276s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[2.276s]                  from [01m[K/usr/include/c++/9/memory:63[m[K,
+[2.276s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.276s]                  from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/informacion_personal_nodo.hpp:4[m[K,
+[2.277s]                  from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:1[m[K:
+[2.277s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = InformacionPersonalNodo; _Args = {}; _Tp = InformacionPersonalNodo][m[K’:
+[2.277s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = InformacionPersonalNodo; _Args = {}; _Tp = InformacionPersonalNodo; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<InformacionPersonalNodo>][m[K’
+[2.277s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = InformacionPersonalNodo; _Alloc = std::allocator<InformacionPersonalNodo>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.278s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = InformacionPersonalNodo; _Alloc = std::allocator<InformacionPersonalNodo>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.278s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<InformacionPersonalNodo>; _Args = {}; _Tp = InformacionPersonalNodo; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.278s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<InformacionPersonalNodo>; _Args = {}; _Tp = InformacionPersonalNodo][m[K’
+[2.278s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = InformacionPersonalNodo; _Alloc = std::allocator<InformacionPersonalNodo>; _Args = {}][m[K’
+[2.278s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = InformacionPersonalNodo; _Args = {}][m[K’
+[2.279s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:72:58:[m[K   required from here
+[2.279s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInformacionPersonalNodo::InformacionPersonalNodo()[m[K’
+[2.279s]   146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[2.279s]       |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.281s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:6:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KInformacionPersonalNodo::InformacionPersonalNodo(const string&)[m[K’
+[2.282s]     6 | [01;36m[KInformacionPersonalNodo[m[K::InformacionPersonalNodo(const std::string &node_name)
+[2.282s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.282s] [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/informacion_personal_nodo.cpp:6:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.461s] make[2]: *** [CMakeFiles/informacion_personal_nodo.dir/build.make:63: CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.o] Error 1
+[2.462s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/informacion_personal_nodo.dir/all] Error 2
+[2.462s] make[1]: *** Waiting for unfinished jobs....
+[2.802s] [ 83%] [32m[1mLinking CXX executable emocion_usuario_nodo[0m
+[2.908s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[2.908s] (.text+0x18): undefined reference to `main'
+[2.908s] /usr/bin/ld: (.text+0x1c): undefined reference to `main'
+[2.908s] collect2: error: ld returned 1 exit status
+[2.909s] make[2]: *** [CMakeFiles/emocion_usuario_nodo.dir/build.make:131: emocion_usuario_nodo] Error 1
+[2.909s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/emocion_usuario_nodo.dir/all] Error 2
+[2.909s] make: *** [Makefile:141: all] Error 2
+[2.912s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

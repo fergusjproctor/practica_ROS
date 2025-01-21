@@ -1,0 +1,18 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found interfaces: 0.0.0 (/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces/share/interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes
+[35m[1mScanning dependencies of target emocion_usuario_nodo[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/emocion_usuario_nodo.dir/src/emocion_usuario_nodo.cpp.o[0m
+[ 50%] Built target empaquetado_nodo
+[35m[1mScanning dependencies of target informacion_personal_nodo[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable emocion_usuario_nodo[0m

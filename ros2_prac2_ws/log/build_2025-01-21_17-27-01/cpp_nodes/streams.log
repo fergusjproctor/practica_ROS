@@ -1,0 +1,16 @@
+[0.006s] Invoking command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2
+[0.057s] [ 14%] [32m[1mLinking CXX executable emocion_usuario_nodo[0m
+[0.059s] [ 42%] Built target empaquetado_nodo
+[0.075s] [35m[1mScanning dependencies of target main_node[0m
+[0.133s] [ 57%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_2.cpp.o[0m
+[0.235s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[0.235s] (.text+0x18): undefined reference to `main'
+[0.235s] /usr/bin/ld: (.text+0x1c): undefined reference to `main'
+[0.235s] collect2: error: ld returned 1 exit status
+[0.235s] make[2]: *** [CMakeFiles/emocion_usuario_nodo.dir/build.make:136: emocion_usuario_nodo] Error 1
+[0.236s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/emocion_usuario_nodo.dir/all] Error 2
+[0.236s] make[1]: *** Waiting for unfinished jobs....
+[1.268s] [ 71%] [32m[1mLinking CXX executable main_node[0m
+[1.374s] [ 85%] Built target main_node
+[1.375s] make: *** [Makefile:141: all] Error 2
+[1.378s] Invoked command in '/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes' returned '2': CMAKE_PREFIX_PATH=/home/parallels/practica_ROS/ros2_prac2_ws/install/interfaces:/home/parallels/practica_ROS/ros2_prac2_ws/install/cpp_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes -- -j2 -l2

@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named emocion_usuario_nodo
+
+# Build rule for target.
+emocion_usuario_nodo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 emocion_usuario_nodo
+.PHONY : emocion_usuario_nodo
+
+# fast build rule for target.
+emocion_usuario_nodo/fast:
+	$(MAKE) -f CMakeFiles/emocion_usuario_nodo.dir/build.make CMakeFiles/emocion_usuario_nodo.dir/build
+.PHONY : emocion_usuario_nodo/fast
+
+#=============================================================================
 # Target rules for targets named empaquetado_nodo
 
 # Build rule for target.
@@ -181,17 +194,17 @@ empaquetado_nodo/fast:
 .PHONY : empaquetado_nodo/fast
 
 #=============================================================================
-# Target rules for targets named main_node
+# Target rules for targets named informacion_personal_nodo
 
 # Build rule for target.
-main_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main_node
-.PHONY : main_node
+informacion_personal_nodo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 informacion_personal_nodo
+.PHONY : informacion_personal_nodo
 
 # fast build rule for target.
-main_node/fast:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/build
-.PHONY : main_node/fast
+informacion_personal_nodo/fast:
+	$(MAKE) -f CMakeFiles/informacion_personal_nodo.dir/build.make CMakeFiles/informacion_personal_nodo.dir/build
+.PHONY : informacion_personal_nodo/fast
 
 #=============================================================================
 # Target rules for targets named cpp_nodes_uninstall
@@ -218,6 +231,33 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+src/emocion_usuario_nodo.o: src/emocion_usuario_nodo.cpp.o
+
+.PHONY : src/emocion_usuario_nodo.o
+
+# target to build an object file
+src/emocion_usuario_nodo.cpp.o:
+	$(MAKE) -f CMakeFiles/emocion_usuario_nodo.dir/build.make CMakeFiles/emocion_usuario_nodo.dir/src/emocion_usuario_nodo.cpp.o
+.PHONY : src/emocion_usuario_nodo.cpp.o
+
+src/emocion_usuario_nodo.i: src/emocion_usuario_nodo.cpp.i
+
+.PHONY : src/emocion_usuario_nodo.i
+
+# target to preprocess a source file
+src/emocion_usuario_nodo.cpp.i:
+	$(MAKE) -f CMakeFiles/emocion_usuario_nodo.dir/build.make CMakeFiles/emocion_usuario_nodo.dir/src/emocion_usuario_nodo.cpp.i
+.PHONY : src/emocion_usuario_nodo.cpp.i
+
+src/emocion_usuario_nodo.s: src/emocion_usuario_nodo.cpp.s
+
+.PHONY : src/emocion_usuario_nodo.s
+
+# target to generate assembly for a file
+src/emocion_usuario_nodo.cpp.s:
+	$(MAKE) -f CMakeFiles/emocion_usuario_nodo.dir/build.make CMakeFiles/emocion_usuario_nodo.dir/src/emocion_usuario_nodo.cpp.s
+.PHONY : src/emocion_usuario_nodo.cpp.s
 
 src/empaquetado_nodo.o: src/empaquetado_nodo.cpp.o
 
@@ -252,7 +292,7 @@ src/informacion_personal_nodo.o: src/informacion_personal_nodo.cpp.o
 
 # target to build an object file
 src/informacion_personal_nodo.cpp.o:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.o
+	$(MAKE) -f CMakeFiles/informacion_personal_nodo.dir/build.make CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.o
 .PHONY : src/informacion_personal_nodo.cpp.o
 
 src/informacion_personal_nodo.i: src/informacion_personal_nodo.cpp.i
@@ -261,7 +301,7 @@ src/informacion_personal_nodo.i: src/informacion_personal_nodo.cpp.i
 
 # target to preprocess a source file
 src/informacion_personal_nodo.cpp.i:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.i
+	$(MAKE) -f CMakeFiles/informacion_personal_nodo.dir/build.make CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.i
 .PHONY : src/informacion_personal_nodo.cpp.i
 
 src/informacion_personal_nodo.s: src/informacion_personal_nodo.cpp.s
@@ -270,35 +310,8 @@ src/informacion_personal_nodo.s: src/informacion_personal_nodo.cpp.s
 
 # target to generate assembly for a file
 src/informacion_personal_nodo.cpp.s:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/informacion_personal_nodo.cpp.s
+	$(MAKE) -f CMakeFiles/informacion_personal_nodo.dir/build.make CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.s
 .PHONY : src/informacion_personal_nodo.cpp.s
-
-src/main_2.o: src/main_2.cpp.o
-
-.PHONY : src/main_2.o
-
-# target to build an object file
-src/main_2.cpp.o:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/main_2.cpp.o
-.PHONY : src/main_2.cpp.o
-
-src/main_2.i: src/main_2.cpp.i
-
-.PHONY : src/main_2.i
-
-# target to preprocess a source file
-src/main_2.cpp.i:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/main_2.cpp.i
-.PHONY : src/main_2.cpp.i
-
-src/main_2.s: src/main_2.cpp.s
-
-.PHONY : src/main_2.s
-
-# target to generate assembly for a file
-src/main_2.cpp.s:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/src/main_2.cpp.s
-.PHONY : src/main_2.cpp.s
 
 # Help Target
 help:
@@ -311,21 +324,22 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... emocion_usuario_nodo"
 	@echo "... empaquetado_nodo"
-	@echo "... main_node"
+	@echo "... informacion_personal_nodo"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... cpp_nodes_uninstall"
 	@echo "... uninstall"
+	@echo "... src/emocion_usuario_nodo.o"
+	@echo "... src/emocion_usuario_nodo.i"
+	@echo "... src/emocion_usuario_nodo.s"
 	@echo "... src/empaquetado_nodo.o"
 	@echo "... src/empaquetado_nodo.i"
 	@echo "... src/empaquetado_nodo.s"
 	@echo "... src/informacion_personal_nodo.o"
 	@echo "... src/informacion_personal_nodo.i"
 	@echo "... src/informacion_personal_nodo.s"
-	@echo "... src/main_2.o"
-	@echo "... src/main_2.i"
-	@echo "... src/main_2.s"
 .PHONY : help
 
 

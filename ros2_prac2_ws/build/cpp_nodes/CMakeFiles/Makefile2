@@ -53,8 +53,9 @@ CMAKE_BINARY_DIR = /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/emocion_usuario_nodo.dir/all
 all: CMakeFiles/empaquetado_nodo.dir/all
-all: CMakeFiles/main_node.dir/all
+all: CMakeFiles/informacion_personal_nodo.dir/all
 
 .PHONY : all
 
@@ -64,12 +65,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/emocion_usuario_nodo.dir/clean
 clean: CMakeFiles/empaquetado_nodo.dir/clean
-clean: CMakeFiles/main_node.dir/clean
+clean: CMakeFiles/informacion_personal_nodo.dir/clean
 clean: CMakeFiles/cpp_nodes_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/emocion_usuario_nodo.dir
+
+# All Build rule for target.
+CMakeFiles/emocion_usuario_nodo.dir/all:
+	$(MAKE) -f CMakeFiles/emocion_usuario_nodo.dir/build.make CMakeFiles/emocion_usuario_nodo.dir/depend
+	$(MAKE) -f CMakeFiles/emocion_usuario_nodo.dir/build.make CMakeFiles/emocion_usuario_nodo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=1,2 "Built target emocion_usuario_nodo"
+.PHONY : CMakeFiles/emocion_usuario_nodo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/emocion_usuario_nodo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/emocion_usuario_nodo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 0
+.PHONY : CMakeFiles/emocion_usuario_nodo.dir/rule
+
+# Convenience name for target.
+emocion_usuario_nodo: CMakeFiles/emocion_usuario_nodo.dir/rule
+
+.PHONY : emocion_usuario_nodo
+
+# clean rule for target.
+CMakeFiles/emocion_usuario_nodo.dir/clean:
+	$(MAKE) -f CMakeFiles/emocion_usuario_nodo.dir/build.make CMakeFiles/emocion_usuario_nodo.dir/clean
+.PHONY : CMakeFiles/emocion_usuario_nodo.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/empaquetado_nodo.dir
@@ -78,7 +107,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/empaquetado_nodo.dir/all:
 	$(MAKE) -f CMakeFiles/empaquetado_nodo.dir/build.make CMakeFiles/empaquetado_nodo.dir/depend
 	$(MAKE) -f CMakeFiles/empaquetado_nodo.dir/build.make CMakeFiles/empaquetado_nodo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=1,2 "Built target empaquetado_nodo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=3,4 "Built target empaquetado_nodo"
 .PHONY : CMakeFiles/empaquetado_nodo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,31 +128,31 @@ CMakeFiles/empaquetado_nodo.dir/clean:
 .PHONY : CMakeFiles/empaquetado_nodo.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main_node.dir
+# Target rules for target CMakeFiles/informacion_personal_nodo.dir
 
 # All Build rule for target.
-CMakeFiles/main_node.dir/all:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/depend
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=3,4,5 "Built target main_node"
-.PHONY : CMakeFiles/main_node.dir/all
+CMakeFiles/informacion_personal_nodo.dir/all:
+	$(MAKE) -f CMakeFiles/informacion_personal_nodo.dir/build.make CMakeFiles/informacion_personal_nodo.dir/depend
+	$(MAKE) -f CMakeFiles/informacion_personal_nodo.dir/build.make CMakeFiles/informacion_personal_nodo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles --progress-num=5,6 "Built target informacion_personal_nodo"
+.PHONY : CMakeFiles/informacion_personal_nodo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main_node.dir/all
+CMakeFiles/informacion_personal_nodo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/informacion_personal_nodo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes/CMakeFiles 0
-.PHONY : CMakeFiles/main_node.dir/rule
+.PHONY : CMakeFiles/informacion_personal_nodo.dir/rule
 
 # Convenience name for target.
-main_node: CMakeFiles/main_node.dir/rule
+informacion_personal_nodo: CMakeFiles/informacion_personal_nodo.dir/rule
 
-.PHONY : main_node
+.PHONY : informacion_personal_nodo
 
 # clean rule for target.
-CMakeFiles/main_node.dir/clean:
-	$(MAKE) -f CMakeFiles/main_node.dir/build.make CMakeFiles/main_node.dir/clean
-.PHONY : CMakeFiles/main_node.dir/clean
+CMakeFiles/informacion_personal_nodo.dir/clean:
+	$(MAKE) -f CMakeFiles/informacion_personal_nodo.dir/build.make CMakeFiles/informacion_personal_nodo.dir/clean
+.PHONY : CMakeFiles/informacion_personal_nodo.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cpp_nodes_uninstall.dir

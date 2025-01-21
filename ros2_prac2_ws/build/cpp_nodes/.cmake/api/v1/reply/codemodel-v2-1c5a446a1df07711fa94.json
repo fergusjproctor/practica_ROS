@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_nodes_uninstall-0205d1bb193d8fb5e8d0.json",
+					"name" : "cpp_nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "emocion_usuario_nodo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-emocion_usuario_nodo-20ed81eae73ee33c33ef.json",
+					"name" : "emocion_usuario_nodo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empaquetado_nodo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empaquetado_nodo-5c0bdb975446e8d27af5.json",
+					"name" : "empaquetado_nodo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "informacion_personal_nodo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-informacion_personal_nodo-bf448bd1ddeaf0f63bfe.json",
+					"name" : "informacion_personal_nodo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1e80d2139417eae4e573.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parallels/practica_ROS/ros2_prac2_ws/build/cpp_nodes",
+		"source" : "/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

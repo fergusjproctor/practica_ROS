@@ -6,7 +6,7 @@ using namespace std::chrono_literals;
 InformacionPersonalNodo::InformacionPersonalNodo(const std::string &node_name)
     : Node("input_node")
 {
-    RCLCPP_INFO(this->get_logger(), "InformacionPersonalNodo has started. Base constructor is always called before derived constructor.");
+    RCLCPP_INFO(this->get_logger(), "InformacionPersonalNodo has started.");
     publisher_ = this->create_publisher<interfaces::msg::InfPersonalUsuario>("topic", 10);
     // define vector of strings, three elements
     prompts_ = {"Como se llama?", "Que edad tiene?", "Que idiomas habla?"};
@@ -62,4 +62,14 @@ void InformacionPersonalNodo::get_user_input()
 
         
     }
+}
+
+
+
+int main(int argc, char *argv[])
+{
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<InformacionPersonalNodo>("InformacionPersonalNodo"));
+  rclcpp::shutdown();
+  return 0;
 }

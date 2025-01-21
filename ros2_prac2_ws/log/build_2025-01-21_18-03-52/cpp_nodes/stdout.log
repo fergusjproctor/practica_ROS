@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target emocion_usuario_nodo[0m
+[ 33%] Built target empaquetado_nodo
+[ 50%] [32mBuilding CXX object CMakeFiles/informacion_personal_nodo.dir/src/informacion_personal_nodo.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/emocion_usuario_nodo.dir/src/emocion_usuario_nodo.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable emocion_usuario_nodo[0m
+[ 83%] Built target emocion_usuario_nodo

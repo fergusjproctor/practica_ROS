@@ -1,0 +1,85 @@
+[35m[1mScanning dependencies of target empaquetado_nodo[0m
+[ 60%] Built target main_node
+[ 80%] [32mBuilding CXX object CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o[0m
+In file included from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:1[m[K:
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:15:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   15 |   void emocion_callback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg) const;
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:15:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   15 |   void emocion_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) const;
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:15:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   15 |   void emocion_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg) const;
+      |                        [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:15:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   15 |   void emocion_callback(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg) const;
+      |                                         [01;31m[K^~~[m[K
+      |                                            [32m[K;[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:15:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   15 |   void emocion_callback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) const;
+      |                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:17:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   17 |   rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_emocion_;
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:17:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |   rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_emocion_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:17:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:17:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   17 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_emocion_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:17:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_emocion_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_get_options[m[K’?
+   17 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_emocion_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[Krcl_subscription_get_options[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:[m[K In constructor ‘[01m[KEmpaquetadoNodo::EmpaquetadoNodo()[m[K’:
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_emocion_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_get_options[m[K’?
+   10 |   [01;31m[Ksubscription_emocion_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Krcl_subscription_get_options[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:10:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   10 |   subscription_emocion_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>(
+      |                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:10:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |   subscription_emocion_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:11:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEmpaquetadoNodo::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (EmpaquetadoNodo::*)(...), EmpaquetadoNodo*, const std::_Placeholder<1>&>::type)[m[K’
+   11 | , 10, std::bind(&EmpaquetadoNodo::emocion_callback, this, _1)[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/include/empaquetado_nodo.hpp:5[m[K,
+                 from [01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   91 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:11:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 | , 10, std::bind(&EmpaquetadoNodo::emocion_callback, this, _1)[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:12:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   12 |   [01;31m[K)[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:[m[K At global scope:
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:20:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   20 | void EmpaquetadoNodo::emocion_callback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg) const
+      |                                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:20:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   20 | void EmpaquetadoNodo::emocion_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) const
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:20:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   20 | void EmpaquetadoNodo::emocion_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg) const
+      |                                       [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                           [32m[K)[m[K
+[01m[K/home/parallels/practica_ROS/ros2_prac2_ws/src/cpp_nodes/src/empaquetado_nodo.cpp:20:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   20 | void EmpaquetadoNodo::emocion_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) const
+      |                                                           [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/empaquetado_nodo.dir/build.make:63: CMakeFiles/empaquetado_nodo.dir/src/empaquetado_nodo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/empaquetado_nodo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
